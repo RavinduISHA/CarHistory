@@ -1,4 +1,3 @@
-@extends('layout')
-@section('content')
+@extends('layout.layout')
 <h1>Home</h1>
-@endsection
+
