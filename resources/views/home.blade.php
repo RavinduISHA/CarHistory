@@ -52,195 +52,196 @@
         </div>
     </div>
 
-    <div class=" my-10">
-        <div class=" w-full">
+    <div class=" my-10 relative">
+        <div class=" w-full ">
             <img src="{{ URL('images/Group_93.png')}}">
-            <div class="text-white">
-                <p class="text-md font-bold text-orange-600">Preserving the Legacy</p>
-                <p class="text-md font-bold w-2/3">Uncovering the Past of Japanese Cars
+            <div class="absolute inset-0 md:flex flex-col justify-center items-start text-center text-white md:mt-20 md:pl-20">
+                <p class="md:text-4xl font-bold text-orange-600">Preserving the Legacy</p>
+                <p class="md:text-2xl ">Uncovering the Past of Japanese Cars
                     through an In-depth Sample Report</p>
-                <button class=" text-sm font-bold bg-orange-600 rounded-lg px-4 py-2">GET REPORT</button>
+                <button class=" md:text-md font-bold bg-orange-600 rounded-lg px-4 py-2 md:mt-5">GET REPORT</button>
             </div>
         </div>
     </div>
-
-
-
 
 
 
 
     <div>
-        <div class="md:flex md:mt-20">
+        <div class="md:flex w-11/12">
             <div>
-                <img src="{{ URL('images/homecar.png')}}" class="" alt="Your Image">
+                <img src="{{ URL('images/homecar.png')}}" alt="Your Image">
             </div>
-            <div>
-                <p class="text-3xl text-blue-900 font-bold">Why We Are the Premier Choice for Car Import History Enthusiasts</p>
+            <div class="text-center md:text-left">
+                <p class="md:text-4xl text-blue-900 font-bold  md:mt-60 ">Why We Are the Premier Choice for Car Import History Enthusiasts</p>
             </div>
         </div>
 
 
         <!--  NEW ROW -->
-
-        <div class="border-4 border-blue-950">
-
-
-            <!-- one row . -->
-            <div class="flex flex-col md:flex-row mt-20">
-
-                <!-- one box . -->
-                <div class="px-4 py-4 md:py-12 w-full md:w-6/12 ">
-
-                    <div class="flex items-center">
-                        <h1 class="text-xl md:text-2xl font-extrabold text-orange-600">01</h1>
-                        <div class="border-t-2 border-blue-900 w-16 md:w-20 mx-2"></div>
-                        <div class="text-2xl md:text-4xl font-bold text-blue-900">Transparency</div>
-                    </div>
-
-                    <div class="w-full mt-4">
-                        <p class="text-xl md:text-2xl px-2 md:px-32">
-                            Ownership, accidents, mileage, service records. Transparent info aids buyers, revealing issues and ensuring informed decisions.
-                        </p>
-                    </div>
-
-                </div>
-                <!-- box end -->
-
-                <!-- one box . -->
-                <div class="px-4 py-4 md:py-12 w-full md:w-6/12">
-
-                    <div class="flex items-center">
-                        <h1 class="text-xl md:text-2xl font-extrabold text-orange-600">02</h1>
-                        <div class="border-t-2 border-blue-900 w-16 md:w-20 mx-2"></div>
-                        <div class="text-2xl md:text-4xl font-bold text-blue-900">Reliability</div>
-                    </div>
-
-                    <div class="w-full mt-4">
-                        <p class="text-xl md:text-2xl px-2 md:px-32">
-                            Reputable car history service offers reliable, accurate info on vehicle history, aiding buyers in assessing condition and reliability pre-purchase.
-                        </p>
-                    </div>
-
-                </div>
-                <!-- box end -->
-
-            </div>
-            <!-- end row . -->
-
-            <!-- Repeat the same structure for other rows and boxes -->
-
-            <!--END NEW ROW -->
-
-            <!--  NEW ROW -->
-
-            <!-- one row . -->
-            <div class="flex flex-col md:flex-row">
-
-                <!-- one box . -->
-                <div class="px-4 py-4 md:py-12 w-full md:w-6/12">
-
-                    <div class="flex items-center">
-                        <h1 class="text-xl md:text-2xl font-extrabold text-orange-600">03</h1>
-                        <div class="border-t-2 border-blue-900 w-16 md:w-20 mx-2"></div>
-                        <div class="text-2xl md:text-4xl font-bold text-blue-900">Peace of mind</div>
-                    </div>
-
-                    <div class="w-full mt-4">
-                        <p class="text-xl md:text-2xl px-2 md:px-32">
-                            Car history reports provide peace of mind by revealing crucial information, reducing the risk of hidden problems when buying a car.
-                        </p>
-                    </div>
-
-                </div>
-                <!-- box end -->
-
-                <!-- one box . -->
-                <div class="px-4 py-4 md:py-12 w-full md:w-6/12">
-
-                    <div class="flex items-center">
-                        <h1 class="text-xl md:text-2xl font-extrabold text-orange-600">04</h1>
-                        <div class="border-t-2 border-blue-900 w-16 md:w-20 mx-2"></div>
-                        <div class="text-2xl md:text-4xl font-bold text-blue-900">Verification</div>
-                    </div>
-
-                    <div class="w-full mt-4">
-                        <p class="text-xl md:text-2xl px-2 md:px-32">
-                            Reputable car history service offers reliable, accurate info on vehicle history, aiding buyers in assessing condition and reliability pre-purchase.
-                        </p>
-                    </div>
-
-                </div>
-                <!-- box end -->
-
-            </div>
-            <!-- end row . -->
-
-            <!-- Repeat the same structure for other rows and boxes -->
+<div class="flex justify-center">
+<div class="border-4 border-blue-950 md:w-5/6 items-start justify-center">
+<!-- one row . -->
+<div class="flex flex-col md:flex-row mt-20 ">
 
 
+    <!-- one box . -->
+    <div class="px-4 py-4 md:py-12 w-full md:w-6/12 ">
+        <div class="flex items-center">
+            <h1 class="text-xl md:text-2xl font-extrabold text-orange-600">01</h1>
+            <div class="border-t-2 border-blue-900 w-16 md:w-20 mx-2"></div>
+            <div class="text-2xl md:text-4xl font-bold text-blue-900">Transparency</div>
+        </div>
 
-
-            <!--END NEW ROW -->
-
-
-            <!--  NEW ROW -->
-
-
-            <!-- one row . -->
-            <div class="flex flex-col md:flex-row">
-
-                <!-- one box . -->
-                <div class="px-4 py-4 md:py-12 w-full md:w-6/12">
-
-                    <div class="flex items-center">
-                        <h1 class="text-xl md:text-2xl font-extrabold text-orange-600">05</h1>
-                        <div class="border-t-2 border-blue-900 w-16 md:w-20 mx-2"></div>
-                        <div class="text-2xl md:text-4xl font-bold text-blue-900">Negotiating power</div>
-                    </div>
-
-                    <div class="w-full mt-4">
-                        <p class="text-xl md:text-2xl px-2 md:px-32">
-                            Ownership, accidents, mileage, service records. Transparent info aids buyers, revealing issues and ensuring informed decisions.
-                        </p>
-                    </div>
-
-                </div>
-                <!-- box end -->
-
-                <!-- one box . -->
-                <div class="px-4 py-4 md:py-12 w-full md:w-6/12">
-
-                    <div class="flex items-center">
-                        <h1 class="text-xl md:text-2xl font-extrabold text-orange-600">06</h1>
-                        <div class="border-t-2 border-blue-900 w-16 md:w-20 mx-2"></div>
-                        <div class="text-2xl md:text-4xl font-bold text-blue-900">Customer Support</div>
-                    </div>
-
-                    <div class="w-full mt-4">
-                        <p class="text-xl md:text-2xl px-2 md:px-32">
-                            Reputable car history service offers reliable, accurate info on vehicle history, aiding buyers in assessing condition and reliability pre-purchase.
-                        </p>
-                    </div>
-
-                </div>
-                <!-- box end -->
-
-            </div>
-            <!-- end row . -->
-
-            <!-- Repeat the same structure for other rows and boxes -->
-
-            <!--END NEW ROW -->
+        <div class="w-full mt-4">
+            <p class="text-xl md:text-2xl px-2 md:px-32">
+                Ownership, accidents, mileage, service records. Transparent info aids buyers, revealing issues and ensuring informed decisions.
+            </p>
         </div>
 
     </div>
+    <!-- box end -->
+
+    <!-- one box . -->
+    <div class="px-4 py-4 md:py-12 w-full md:w-6/12">
+
+        <div class="flex items-center">
+            <h1 class="text-xl md:text-2xl font-extrabold text-orange-600">02</h1>
+            <div class="border-t-2 border-blue-900 w-16 md:w-20 mx-2"></div>
+            <div class="text-2xl md:text-4xl font-bold text-blue-900">Reliability</div>
+        </div>
+
+        <div class="w-full mt-4">
+            <p class="text-xl md:text-2xl px-2 md:px-32">
+                Reputable car history service offers reliable, accurate info on vehicle history, aiding buyers in assessing condition and reliability pre-purchase.
+            </p>
+        </div>
+
+    </div>
+    <!-- box end -->
+
+</div>
+<!-- end row . -->
+
+<!-- Repeat the same structure for other rows and boxes -->
+
+<!--END NEW ROW -->
+
+<!--  NEW ROW -->
+
+<!-- one row . -->
+<div class="flex flex-col md:flex-row">
+
+    <!-- one box . -->
+    <div class="px-4 py-4 md:py-12 w-full md:w-6/12">
+
+        <div class="flex items-center">
+            <h1 class="text-xl md:text-2xl font-extrabold text-orange-600">03</h1>
+            <div class="border-t-2 border-blue-900 w-16 md:w-20 mx-2"></div>
+            <div class="text-2xl md:text-4xl font-bold text-blue-900">Peace of mind</div>
+        </div>
+
+        <div class="w-full mt-4">
+            <p class="text-xl md:text-2xl px-2 md:px-32">
+                Car history reports provide peace of mind by revealing crucial information, reducing the risk of hidden problems when buying a car.
+            </p>
+        </div>
+
+    </div>
+    <!-- box end -->
+
+    <!-- one box . -->
+    <div class="px-4 py-4 md:py-12 w-full md:w-6/12">
+
+        <div class="flex items-center">
+            <h1 class="text-xl md:text-2xl font-extrabold text-orange-600">04</h1>
+            <div class="border-t-2 border-blue-900 w-16 md:w-20 mx-2"></div>
+            <div class="text-2xl md:text-4xl font-bold text-blue-900">Verification</div>
+        </div>
+
+        <div class="w-full mt-4">
+            <p class="text-xl md:text-2xl px-2 md:px-32">
+                Reputable car history service offers reliable, accurate info on vehicle history, aiding buyers in assessing condition and reliability pre-purchase.
+            </p>
+        </div>
+
+    </div>
+    <!-- box end -->
+
+</div>
+<!-- end row . -->
+
+<!-- Repeat the same structure for other rows and boxes -->
+
+
+
+
+<!--END NEW ROW -->
+
+
+<!--  NEW ROW -->
+
+
+<!-- one row . -->
+<div class="flex flex-col md:flex-row">
+
+    <!-- one box . -->
+    <div class="px-4 py-4 md:py-12 w-full md:w-6/12">
+
+        <div class="flex items-center">
+            <h1 class="text-xl md:text-2xl font-extrabold text-orange-600">05</h1>
+            <div class="border-t-2 border-blue-900 w-16 md:w-20 mx-2"></div>
+            <div class="text-2xl md:text-4xl font-bold text-blue-900">Negotiating power</div>
+        </div>
+
+        <div class="w-full mt-4">
+            <p class="text-xl md:text-2xl px-2 md:px-32">
+                Ownership, accidents, mileage, service records. Transparent info aids buyers, revealing issues and ensuring informed decisions.
+            </p>
+        </div>
+
+    </div>
+    <!-- box end -->
+
+    <!-- one box . -->
+    <div class="px-4 py-4 md:py-12 w-full md:w-6/12">
+
+        <div class="flex items-center">
+            <h1 class="text-xl md:text-2xl font-extrabold text-orange-600">06</h1>
+            <div class="border-t-2 border-blue-900 w-16 md:w-20 mx-2"></div>
+            <div class="text-2xl md:text-4xl font-bold text-blue-900">Customer Support</div>
+        </div>
+
+        <div class="w-full mt-4">
+            <p class="text-xl md:text-2xl px-2 md:px-32">
+                Reputable car history service offers reliable, accurate info on vehicle history, aiding buyers in assessing condition and reliability pre-purchase.
+            </p>
+        </div>
+
+    </div>
+    <!-- box end -->
+
+</div>
+<!-- end row . -->
+
+<!-- Repeat the same structure for other rows and boxes -->
+
+<!--END NEW ROW -->
+</div>
+
+</div>
+
+
+    </div>
+
+    <div class="flex justify-center">
+
 
     <!----->
-    <div class="relative mt-12">
+    <div class="relative mt-12" >
         <!-- Assuming the container has a fixed height for the percentage height to work -->
 
-        <img src="{{ URL('images/homecar2.jpg')}}" class="w-full" style="height:600px" alt="Your Image">
+        <img src="{{ URL('images/homecar2.jpg')}}" class="w-full " style="height:1060px" alt="Your Image">
 
 
 
@@ -309,6 +310,9 @@
         </div>
     </div>
 
+
+    </div>
+
     <!-- Our Trusted Brand  Part-->
 
     <div class="w-full flex-col flex items-center justify-center mt-20">
@@ -318,13 +322,15 @@
     <!-- Our Trusted Brand  Part End-->
 
     <!-- Vehicle Icon Part-->
-    <div class="flex flex-col md:flex-row justify-center mb-14 w-full overflow-hidden">
+    <div class="flex justify-center">
+    <div class="flex flex-col md:flex-row  mb-14 w-10/12">
         <img src="{{ URL('images/Group 151.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
         <img src="{{ URL('images/Group 152.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
         <img src="{{ URL('images/Group 153.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
         <img src="{{ URL('images/Group 154.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
         <img src="{{ URL('images/Group 155.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
         <img src="{{ URL('images/Group 156.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
+    </div>
     </div>
     <!-- Vehicle Icon Part End-->
 
