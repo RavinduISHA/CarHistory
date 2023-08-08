@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout.layout')
 @section('content')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <div class="w-full">
@@ -69,11 +69,11 @@
 
     <div>
         <div class="md:flex w-11/12">
-            <div>
+            <div class="md:w-6/12 ">
                 <img src="{{ URL('images/homecar.png')}}" alt="Your Image">
             </div>
-            <div class="text-center md:text-left">
-                <p class="md:text-4xl text-blue-900 font-bold  md:mt-60 ">Why We Are the Premier Choice for Car Import History Enthusiasts</p>
+            <div class="md:w-6/12">
+                <p class="md:text-4xl text-blue-900 font-bold md:mt-60 md:text-left text-center ">Why We Are the Premier Choice for Car Import History Enthusiasts</p>
             </div>
         </div>
 
@@ -253,7 +253,8 @@
 
 
             <!--Community Image 1 -->
-            <div class="md:flex flex-row w-full gap-20 justify-center">
+            <div class="flex  justify-center ">
+            <div class="md:flex flex-row w-11/12 gap-20">
                 <!-- Image 1 -->
 
 
@@ -306,6 +307,7 @@
 
 
 
+            </div>
             </div>
         </div>
     </div>
