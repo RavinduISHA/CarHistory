@@ -40,7 +40,7 @@
 
     <div class="w-full relative">
         <div class="relative flex items-center">
-            <div class="bg-cover bg-center w-full h-64 rounded-lg" style="background-image: url('{{ asset('images/Group 91.png') }}');">
+            <div class="bg-cover bg-center w-full h-64 rounded-lg" style="background-image: url('{{ asset('images/Group_93.png') }}');">
                     </div>
             <div class="absolute left-0 top-0 flex flex-col justify-center h-64 items-center text-center px-8">
                 <h2 class="text-2xl font-semibold text-orange-500 text-center">Preserving the Legacy</h2>
@@ -138,7 +138,15 @@
 
         </div>
 
+
+
+
+        
+
     </div>
+
+
+  
     {{-- TOPIC,4 ROWS OF INFO,WITH BATCH,TINY TOPIC AND EXPLANATION OVER --}}
 
     @endsection

@@ -1,7 +1,7 @@
 @extends('layout.layout')
 @section('content')
 
-
+<img src="{{ asset('images/aboutusbanner.png') }}" alt="" class="h-64 object-cover mx-auto w-full">
 <div class="container mx-auto mt-4">
 
     <div class="border-2 border-blue-800  rounded-lg bg-gray-200 px-10 py-10">
