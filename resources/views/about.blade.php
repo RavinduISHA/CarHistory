@@ -1,466 +1,150 @@
 @extends('layout.layout')
+
 @section('content')
+    <div>
+        {{-- ABOUT US BANNER --}}
 
+        <div class="w-full">
+            <img src="{{ asset('images/aboutusbanner.png') }}" alt="" class="h-64 object-cover mx-auto w-full">
 
-<div class="container mx-auto mt-4">
+        </div>
 
-    <!--first Row-->
+        {{-- BANNER OVER --}}
 
+        <br>
 
-    <div class="border-2 border-blue-800  rounded-lg bg-gray-200 px-10 py-10">
-        <div class="flex flex-col md:flex-row">
-            <div class="md:w-6/12 px-5">
-                <div>
-                    <h1 class="text-black w-full md:w-4/12 mb-2 md:mb-0">CHECK CAR HISTORY NOW! Use a FREE vehicle search</h1>
-                </div>
-                <h1 class="text-black w-full md:w-10/12 mt-5">Uncover the complete background of any vehicle instantly. Access valuable information on accidents, ownership, title status, and more. Make informed decisions with confidence and peace of mind.</h1>
+        {{-- 2 BOXES 1MAGE AND 1 DECRIPTION --}}
+
+        <div class="flex justify-center items-start w-full">
+            <div class="w-2/6">
+                <h1 class="text-2xl">About Us</h1>
+                <p class="text-base">
+                    Our Japanese Import Cars History Website is a comprehensive online platform dedicated to providing
+                    detailed
+                    information and insights into the history, development, and evolution of Japanese import cars. We aim to
+                    cater to car enthusiasts, collectors, historians, and anyone interested in learning about the rich
+                    heritage
+                    of Japanese automotive industry and its impact on the global market.
+                </p>
             </div>
-            <div class="md:mt-5 md:w-6/12 w-full">
-                <div class="container mx-auto">
-                    <div class="mb-6">
-                        <input type="text" id="cheeseNumber" class="w-full border border-white rounded-lg px-3 py-2 text-black placeholder-black" placeholder="Enter Cheese Number">
+            <div class="w-3/6">
+                <img src="{{ asset('images/aboutimg.png') }}">
+            </div>
+        </div>
+
+        {{-- BOXES OVER --}}
+
+        <br>
+
+        {{-- BACKGROUND IMAGE,BUTTON,TOPIC,EXPLANATION --}}
+
+        <div class="w-full relative">
+            <div class="relative flex items-center">
+                <div class="bg-cover bg-center w-full h-64 rounded-lg"
+                    style="background-image: url('{{ asset('images/Group 91.png') }}');">
+                </div>
+                <div class="absolute left-0 top-0 flex flex-col justify-center h-64 items-center text-center px-8">
+                    <h2 class="text-2xl font-semibold text-orange-500 text-center">Preserving the Legacy</h2>
+                    <p class="mt-4 text-base text-white text-center">
+                        Uncovering the Past of Japanese Cars <br> an In-depth Sample Report
+                    </p>
+                    <div class="mt-6">
+                        <button
+                            class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition duration-300 ease-in-out">
+                            GET REPORT
+                        </button>
                     </div>
-                    <div>
-                        <button class="text-white border font-bold bg-blue-950 rounded-lg px-6 py-2 w-full">Find your Vehicle</button>
+                </div>
+            </div>
+        </div>
+
+        {{-- BACKGROUND IMAGE,BUTTON,TOPIC,EXPLANATION OVER --}}
+
+        <br>
+
+        {{-- TOPIC,4 ROWS OF INFO,WITH BATCH,TINY TOPIC AND EXPLANATION --}}
+        <div class=" mx-auto max-w-screen-lg ">
+            <div>
+                <h1 class="text-3xl font-bold text-indigo-900 text-center">Why Choose Motormec Car History?</h1>
+            </div>
+            <br>
+            {{-- ROWS --}}
+            <div class="flex flex-row">
+                {{-- ROW 1 --}}
+                <div>
+                    <div class="w-1/4">
+                        <img class="w-12 h-12" src="{{ asset('images/search1.png') }}" alt="Image 1">
                     </div>
+
+                    <h2 class="text-lg font-bold text-gray-800 mb-2">
+                        Transparency
+                    </h2>
+
+                    <p class="text-sm text-gray-600">
+                        Detailed vehicle past (ownership, accidents, mileage, service
+                        history) promote informed decisions, highlighting potential issues for buyers.
+                    </p>
+
                 </div>
-            </div>
-        </div>
-    </div>
 
-
-    <!--Table Row Vehicle Information-->
-
-
-    <div class="md:flex w-full justify-between gap-10 mt-5">
-
-
-        <div class="border-2 rounded-lg w-full ">
-            <div class="bg-blue-950 py-5">
-                <h1 class="text-white text-3xl text-center">Vehicle Information</h1>
-            </div>
-            <div>
-                <table class="w-full">
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Chassis Number</td>
-                        <td class="w-1/2 text-start">: KJ10-25LKU785</td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Manufacture Date</td>
-                        <td class="w-1/2 text-start">: 2009-06</td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Make</td>
-                        <td class="w-1/2 text-start">: Toyota</td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Model</td>
-                        <td class="w-1/2 text-start">: Prius</td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Body</td>
-                        <td class="w-1/2 text-start">: DBA-KJ10</td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Grade</td>
-                        <td class="w-1/2 text-start">: 20G</td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Engine</td>
-                        <td class="w-1/2 text-start">: MR20</td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Drive</td>
-                        <td class="w-1/2 text-start">: 2WD</td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Transmission</td>
-                        <td class="w-1/2 text-start">: Auto</td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">One</td>
-                        <td class="w-1/2 text-start">Two</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <!--Table Row Vehicle History-->
-
-        <div class="border-2 rounded-lg w-full ">
-            <div class="bg-blue-950 py-5">
-                <h1 class="text-white text-3xl text-center">Vehicle History</h1>
-            </div>
-            <div>
-                <table class="w-full px-5">
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/3 text-start">
-                            <span class="inline-block mr-2">
-                                <img src="images/car-key.png" class="w-5 h-5">
-                            </span>Title information
-                        </td>
-                        <td class="w-1/3 text-start">Deregistered to Export</td>
-                        <td class="flex w-full text-start justify-end">
-                            <img src="images/checked.png" class="w-5 h-5">
-                        </td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/3 text-start">
-                            <span class="inline-block mr-2">
-                                <img src="images/car-repair.png" class="w-5 h-5">
-                            </span>Title information
-                        </td>
-                        <td class="w-1/3 text-start">No Problem</td>
-                        <td class="flex w-full text-start justify-end">
-                            <img src="images/cancel.png" class="w-5 h-5">
-                        </td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/3 text-start">
-                            <span class="inline-block mr-2">
-                                <img src="images/speedomete.png" class="w-5 h-5">
-                            </span>Title information
-                        </td>
-                        <td class="w-1/3 text-start">Deregistered to Export</td>
-                        <td class="flex w-full text-start justify-end">
-                            <img src="images/checked.png" class="w-5 h-5">
-                        </td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/3 text-start">
-                            <span class="inline-block mr-2">
-                                <img src="images/settings.png" class="w-5 h-5">
-                            </span>Title information
-                        </td>
-                        <td class="w-1/3 text-start">No Problem</td>
-                        <td class="flex w-full text-start justify-end">
-                            <img src="images/cancel.png" class="w-5 h-5">
-                        </td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/3 text-start">
-                            <span class="inline-block mr-2">
-                                <img src="images/shiel.png" class="w-5 h-5">
-                            </span>Title information
-                        </td>
-                        <td class="w-1/3 text-start">Deregistered to Export</td>
-                        <td class="flex w-full text-start justify-end">
-                            <img src="images/checked.png" class="w-5 h-5">
-                        </td>
-                    </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/3 text-start">
-                            <span class="inline-block mr-2">
-                                <img src="images/exclamation-mark.png" class="w-5 h-5">
-                            </span>Title information
-                        </td>
-                        <td class="w-1/3 text-start">No Problem</td>
-                        <td class="flex w-full text-start justify-end">
-                            <img src="images/cancel.png" class="w-5 h-5">
-                        </td>
-                    </tr>
-
-
-
-                </table>
-
-
-                <!--Table end -->
-
-
-                <!--Download Report Button -->
-
-                <div class=" flex justify-center mt-5">
-                    <button class="w-10/12 border-3 bg-blue-950 text-white font-semibold p-5 rounded-lg justify-center items-center ">Download Report</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--Download Report Button -->
-
-
-<div class=" flex items-center justify-center">
-    <div class="border-2 border-blue-800 rounded-lg bg-gray-200 px-10 py-10 mt-10  items-center justify-center container w-full">
-
-        <div class="flex ">
-
-            <div class="w-6/12">
+                {{-- ROW 2 --}}
                 <div>
-                    <h1 class="text-2xl">This vehicle does not qualify for Buyback Guarantee</h1>
-                </div>
-                <div class="flex">
-                    <img src="{{ URL('images/cross.png')}}" alt="Your Image" class="md:w-20 w-10 md:h-20 h-10">
-                    <h1 class="w-8/12 ml-2 mt-3">Unfortunately, this vehicle does not qualify for our
-                        Buyback Guarantee Program.</h1>
-                </div>
-            </div>
+                    <div class="w-1/4">
+                        <img class="w-12 h-12" src="{{ asset('images/shield1.png') }}" alt="Image 2">
+                    </div>
 
-            <div>
+                    <h2 class="text-lg font-bold text-gray-800  mb-2">
+                        Reliability
+                    </h2>
+
+                    <p class="text-sm text-gray-600">
+                        Accurate information aids buyers in evaluating a vehicle's
+                        condition and overall reliability prior to purchase.
+                    </p>
+
+                </div>
+
+                {{-- ROW 3 --}}
                 <div>
-                    <h1 class="text-2xl">Average Market Price</h1>
+                    <div class="w-1/4">
+                        <img class="w-12 h-12" src="{{ asset('images/hand-shake3.png') }}" alt="Image 3">
+                    </div>
+
+                    <h2 class="text-lg font-bold text-gray-800  mb-2">
+                        Negotiating power
+                    </h2>
+
+                    <p class="text-sm text-gray-600">
+                        Comprehensive car history empowers buyers to negotiate based on
+                        condition and history, potentially lowering price or requesting repairs.
+                    </p>
+
                 </div>
-                <div class="flex">
-                    <img src="{{ URL('images/dollar-symbol.png')}}" alt="Your Image" class="md:w-20 w-10 md:h-20 h-10">
-                    <h1 class="w-3/12 ml-2 text-4xl text-gray-600 mt-3">95,000</h1>
+
+                {{-- ROW 4 --}}
+                <div>
+                    <div class="w-1/4">
+                        <img class="w-12 h-12" src="{{ asset('images/hand-shake3.png') }}" alt="Image 4">
+                    </div>
+
+                    <h2 class="text-lg font-bold text-gray-800  mb-2">
+                        Transparency
+                    </h2>
+
+                    <p class="text-sm text-gray-600">
+                        Car history reports verify VIN to align documentation with
+                        actual history, enhancing buyer confidence with an additional layer of assurance.
+                    </p>
+
                 </div>
+
             </div>
 
-
-
         </div>
+        {{-- TOPIC,4 ROWS OF INFO,WITH BATCH,TINY TOPIC AND EXPLANATION OVER --}}
 
-        <!--This vehicle does not qualify for Buyback Guarantee part-->
-
-        <div>
-            <h1 class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam euismod enim, a blandit neque tincidunt vitae. In faucibus ante eget risus sollicitudin, at ullamcorper justo semper. Suspendisse potenti. Sed aliquam nunc vitae mauris semper, non varius erat volutpat. Nulla facilisi. Nunc rhoncus eleifend justo vitae tristique. Vestibulum nec mauris elit. Praesent nec tristique mauris.
-                Sed posuere enim eget purus ullamcorper lacinia. Integer efficitur massa et eleifend feugiat. </h1>
-        </div>
-    </div>
-
-</div>
-
-
-<!-- According --->
-<div class="container mx-auto mt-5">
-    <div id="accordion-collapse" data-accordion="collapse">
-
-        <!-- ACCORDION 2-->
-        <h2 id="accordion-collapse-heading-1">
-            <button type="button" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950">
-                <span>ACCIDENT / REPAIR HISTORY</span>
-
-
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
-                </svg>
-
-                <!-- <svg data-accordion-icon class="w-3 h-3 rotate-0 shrink-0 mb-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 2">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h8M5 -2v10" />
-                </svg> -->
-            </button>
-        </h2>
-        <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-            <div class="border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                <table class="w-full">
-                    <tr class="border-b-8 border-white bg-white">
-                        <td>Problem type</td>
-                        <td>Reported</td>
-                        <td>Date Reported</td>
-                        <td>Data Source</td>
-                        <td>Details</td>
-                        <td>Airbag</td>
-                    </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>-----</td>
-                        <td>
-                            <div class="flex">
-                                <div class="flex items-center">
-                                    <img src="{{ URL('images/cancel.png')}}" class="w-5 h-5" alt="" srcset="">
-                                </div>
-                                <h1>&nbsp Rejected</h1>
-                            </div>
-                        </td>
-                        <td>2023-02-15</td>
-                        <td>USS Tokyo</td>
-                        <td>Repaired</td>
-                        <td>OK</td>
-                    </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>Malfuction</td>
-                        <td>
-                            <div class="flex">
-                                <div class="flex items-center">
-                                    <!-- <img src="" class="w-5 h-5" alt="" srcset=""> -->
-                                </div>
-                                <h1>-------</h1>
-                            </div>
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>Malfuction</td>
-                        <td>
-                            <div class="flex">
-                                <div class="flex items-center">
-                                    <img src="{{ URL('images/checked.png')}}" class="w-5 h-5" alt="" srcset="">
-                                </div>
-                                <h1>&nbsp Reported</h1>
-                            </div>
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>Malfuction</td>
-                        <td>
-                            <div class="flex">
-                                <div class="flex items-center">
-                                    <img src="{{ URL('images/checked.png')}}" class="w-5 h-5" alt="" srcset="">
-                                </div>
-                                <h1>&nbsp Reported</h1>
-                            </div>
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>Malfuction</td>
-                        <td>
-                            <div class="flex">
-                                <div class="flex items-center">
-                                    <img src="{{ URL('images/checked.png')}}" class="w-5 h-5" alt="" srcset="">
-                                </div>
-                                <h1>&nbsp Reported</h1>
-                            </div>
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>Malfuction</td>
-                        <td>
-                            <div class="flex">
-                                <div class="flex items-center">
-                                    <img src="{{ URL('images/checked.png')}}" class="w-5 h-5" alt="" srcset="">
-                                </div>
-                                <h1>&nbsp Reported</h1>
-                            </div>
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <!-- ACCORDION 2-->
-        <h2 id="accordion-collapse-heading-2">
-            <button type="button" data-accordion-target="#accordion-collapse-body-2" aria-expanded="true" aria-controls="accordion-collapse-body-2" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950">
-                <span>ODO METER READING HISTORY</span>
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
-                </svg>
-            </button>
-        </h2>
-        <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-            <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                Hello Hello
-            </div>
-        </div>
-
-
-        <!-- ACCORDION 3-->
-        <h2 id="accordion-collapse-heading-3">
-            <button type="button" data-accordion-target="#accordion-collapse-body-3" aria-expanded="true" aria-controls="accordion-collapse-body-3" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950">
-                <span>USE HISOTORY</span>
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
-                </svg>
-            </button>
-        </h2>
-        <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-            <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                Hello Hello
-            </div>
-        </div>
-
-
-        <!-- ACCORDION 4-->
-        <h2 id="accordion-collapse-heading-4">
-            <button type="button" data-accordion-target="#accordion-collapse-body-4" aria-expanded="true" aria-controls="accordion-collapse-body-4" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950">
-                <span>ACCIDENT / REPAIR HISTORY</span>
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
-                </svg>
-            </button>
-        </h2>
-        <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-
-            <div class="border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                <table class="w-full">
-                    <tr class="border-b-8 border-white bg-white">
-                        <td>Event Date</td>
-                        <td>Location</td>
-                        <td>ODO Reading (km)</td>
-                        <td>Data Source</td>
-                        <td>Details</td>
-                    </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>2009-06</td>
-                        <td></td>
-                        <td></td>
-                        <td>Nissan</td>
-                        <td>Manufactured</td>
-                    </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>2009-06</td>
-                        <td></td>
-                        <td></td>
-                        <td>MLIT</td>
-                        <td>First Registration</td>
-                    </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>2012-06-08</td>
-                        <td></td>
-                        <td>22900</td>
-                        <td>MLIT</td>
-                        <td>First Registration</td>
-                    </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>2012-06-08</td>
-                        <td></td>
-                        <td>35100</td>
-                        <td>MLIT</td>
-                        <td>First Registration</td>
-                    </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>2014-07-09</td>
-                        <td>Tama</td>
-                        <td></td>
-                        <td>MLIT</td>
-                        <td>First Registration</td>
-                    </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>2012-06-08</td>
-                        <td>China</td>
-                        <td>44100</td>
-                        <td>USS Tokyo</td>
-                        <td>Autioned</td>
-                    </tr>
-                </table>
-            </div>
-
-
-        </div>
-
-
-
-        <!-- ACCORDION 5-->
-        <h2 id="accordion-collapse-heading-5">
-            <button type="button" data-accordion-target="#accordion-collapse-body-5" aria-expanded="true" aria-controls="accordion-collapse-body-5" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950">
-                <span>MANUFACTURER RECALL HISTORY</span>
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
-                </svg>
-            </button>
-        </h2>
-        <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-            <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                Hello Hello
-            </div>
-        </div>
+    <h1>Welcome to the About us Page</h1>
+@endsection
 
 
 
