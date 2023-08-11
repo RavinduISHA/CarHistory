@@ -4,8 +4,14 @@
 <div>
     {{-- ABOUT US BANNER --}}
 
-    <div class="w-full">
+    <div class="w-full relative">
         <img src="{{ asset('images/aboutusbanner.png') }}" alt="" class="h-64 object-cover mx-auto w-full">
+<div class="absolute inset-0 flex flex-col items-center justify-center">
+<h1 class="text-orange-500 font-bold text-6xl">About Us</h1>
+<p class="text-white ">Home  >  About Us</p>
+
+
+</div>
 
     </div>
 
@@ -15,18 +21,38 @@
 
     {{-- 2 BOXES 1MAGE AND 1 DECRIPTION --}}
 
-    <div class="flex justify-center items-start w-full">
-        <div class="w-2/6">
-            <h1 class="text-2xl">About Us</h1>
-            <p class="text-base">
-                Our Japanese Import Cars History Website is a comprehensive online platform dedicated to providing
-                detailed
-                information and insights into the history, development, and evolution of Japanese import cars. We aim to
-                cater to car enthusiasts, collectors, historians, and anyone interested in learning about the rich
-                heritage
-                of Japanese automotive industry and its impact on the global market.
-            </p>
+    <div class="md:flex justify-center items-start w-full">
+    <div class="md:w-2/6">
+    <h1 class="text-3xl md:mt-10 text-blue-950 font-bold text-center md:text-left">About Us</h1>
+    <p class="text-base md:text-lg lg:text-xl xl:text-2xl md:mt-16 text-center md:text-left">
+        Our Japanese Import Cars History Website is a comprehensive online platform dedicated to providing
+        detailed
+        information and insights into the history, development, and evolution of Japanese import cars. We aim to
+        cater to car enthusiasts, collectors, historians, and anyone interested in learning about the rich
+        heritage
+        of Japanese automotive industry and its impact on the global market.
+    </p>
+
+    <div class="md:flex gap-10 md:mt-10 md:w-12/12 border-2md:justify-start ">
+        <div class="relative">
+            <h1 class="absolute z-20 md:bottom-28 bottom-5 bg-white md:mb-0 mb-20 ">Happy client</h1>
+            <div class="border-4 border-blue-950 w-40 h-28 z-10 mt-6">
+                <h1 class="text-5xl text-blue-950 py-5 px-1 text-center">275+</h1>
+            </div>
         </div>
+
+        <div class="relative">
+            <h1 class="absolute z-20 md:bottom-28 bottom-5 bg-white md:mb-0 mb-20 ">Vehicle</h1>
+            <div class="border-4 border-blue-950 w-40 h-28 z-10 mt-6">
+                <h1 class="text-5xl text-blue-950 py-5 px-1 text-center">958+</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+          
+        
+    
         <div class="w-3/6">
             <img src="{{ asset('images/aboutimg.png') }}">
         </div>
@@ -61,15 +87,17 @@
     <br>
 
     {{-- TOPIC,4 ROWS OF INFO,WITH BATCH,TINY TOPIC AND EXPLANATION --}}
-    <div class=" mx-auto max-w-screen-lg ">
+    <div>
         <div>
             <h1 class="text-3xl font-bold text-indigo-900 text-center">Why Choose Motormec Car History?</h1>
         </div>
         <br>
+      
         {{-- ROWS --}}
-        <div class="flex flex-row">
+      
+        <div class="flex flex-row w-12/12 md:mx-40 ">
             {{-- ROW 1 --}}
-            <div>
+            <div class="w-3/12">
                 <div class="w-1/4">
                     <img class="w-12 h-12" src="{{ asset('images/search1.png') }}" alt="Image 1">
                 </div>
@@ -86,7 +114,7 @@
             </div>
 
             {{-- ROW 2 --}}
-            <div>
+            <div class=" w-3/12">
                 <div class="w-1/4">
                     <img class="w-12 h-12" src="{{ asset('images/shield1.png') }}" alt="Image 2">
                 </div>
@@ -103,7 +131,7 @@
             </div>
 
             {{-- ROW 3 --}}
-            <div>
+            <div class=" w-3/12">
                 <div class="w-1/4">
                     <img class="w-12 h-12" src="{{ asset('images/hand-shake3.png') }}" alt="Image 3">
                 </div>
@@ -120,7 +148,7 @@
             </div>
 
             {{-- ROW 4 --}}
-            <div>
+            <div class=" w-3/12">
                 <div class="w-1/4">
                     <img class="w-12 h-12" src="{{ asset('images/hand-shake3.png') }}" alt="Image 4">
                 </div>
