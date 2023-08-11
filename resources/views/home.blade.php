@@ -2,7 +2,47 @@
 @section('content')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-<img src="{{ asset('images/aboutusbanner.png') }}" alt="" class="h-64 object-cover mx-auto w-full">
+<div class="w-full relative">
+    <img src="{{ asset('images/Pinna.jpg') }}" alt="" class="h-68 object-cover mx-auto w-full">
+
+   
+    <div class="absolute inset-0 flex flex-col items-center justify-start md:mt-20">
+        <h1 class="text-orange-500 font-bold text-5xl">Know Before You Buy</h1>
+        <p class="text-white w-4/12">Your go-to resource for comprehensive vehicle history checks, empowering you with essential insights and peace of mind</p>
+    </div>
+
+    <div class="absolute inset-0 flex flex-row mt-auto">
+        <div class=" w-6/12 mt-auto">
+
+            <div class="align-bottom md:ml-96 w-full ">
+                <label for="search" class="block text-lg mb-2 "></label>
+                <div class="relative w-5/12">
+                    <input type="text" id="search" name="search" placeholder="VIN or Chassis Number" class="w-full px-4 py-2 text-black bg-white rounded-md focus:outline-none focus:ring focus:border-blue-300" />
+                    <button type="button" class="absolute top-1/2 right-2 transform -translate-y-1/2 focus:outline-none bg-orange-500 text-white px-3 py-1 rounded">
+                        Back
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex gap-5 md:mt-5 mt-auto md:ml-96 md:mb-20">
+                <img src="{{ asset('images/twitter.png') }}" alt="" class="w-10 h-10">
+                <img src="{{ asset('images/twitter.png') }}" alt="" class="w-10 h-10">
+                <img src="{{ asset('images/youtube.png') }}" alt="" class="w-10 h-10">
+            </div>
+        </div>
+
+        <!-- car -->
+        <div class="flex justify-end w-6/12 ">
+            <div class="absolute bottom-0 sm:-mb-28  " >
+                <img src="{{ asset('images/pngegg.png') }}" class="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 <div class="w-full">
     <div class="container mx-auto">
 

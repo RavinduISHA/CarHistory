@@ -1,7 +1,16 @@
 @extends('layout.layout')
 @section('content')
 
-<img src="{{ asset('images/aboutusbanner.png') }}" alt="" class="h-64 object-cover mx-auto w-full">
+<div class="w-full relative">
+        <img src="{{ asset('images/Siyama.jpg') }}" alt="" class="h-64 object-cover mx-auto w-full">
+<div class="absolute inset-0 flex flex-col items-center justify-center">
+<h1 class="text-orange-500 font-bold text-6xl">Car Report</h1>
+<p class="text-white">Home  >  Car Report</p>
+
+
+</div>
+
+    </div>
 
 <div class="container mx-auto mt-4 ">
     <div>
