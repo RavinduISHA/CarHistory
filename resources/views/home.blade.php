@@ -58,7 +58,7 @@
 
             <div class="flex justify-center md:mt-20">
 
-                <div class="w-1/2 px-4 md:px-8 my-16">
+                <div class="w-1/3 px-4 md:px-8 my-16">
                     <h1 class="text-3xl text-blue-900 font-bold 1/3">Why do u need to check Japanese Import Cars History </h1>
 
                 </div>
@@ -284,8 +284,8 @@
 
         </div>
 
-        <div class=" flex justify-center w-full ">
-            <div class="bg-[url('../img/homecar2.jpg')] w-full md:mx-44 bg-cover bg-center py-40 justify center">
+        <div class=" flex justify-center w-full">
+            <div class="bg-[url('../img/homecar2.jpg')] w-full md:mx-16 bg-cover bg-center py-40 justify center">
 
 
 
@@ -587,7 +587,7 @@
                             </span>
                         </button>
                         <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-500 dark:bg-orange-500 group-hover:bg-orange-00 dark:group-hover:bg-orange-700 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-orange-500 group-focus:outline-none">
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-500 dark:bg-orange-500 group-hover:bg-orange-00 dark:group-hover:bg-orange-700 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-orange-500 group-focus:outline-none">
                                 <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
@@ -633,8 +633,8 @@
 
     </div>
 
- 
-    
+
+
 
 
     @endsection

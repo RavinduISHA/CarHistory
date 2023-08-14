@@ -12,16 +12,16 @@
             <div class="md:flex-1  flex items-center justify-end md:justify-center">
                 <ul class="md:flex flex-col md:flex-row md:space-x-20 mt-4 md:mt-0">
                     <li>
-                        <a href="{{ route('home') }}" class="text-white hover:text-orange-500 text-2xl">Home</a>
+                        <a href="{{ route('home') }}" class="text-white hover:text-orange-500 ">Home</a>
                     </li>
                     <li>
-                        <a href="{{ route('about') }}" class="text-white hover:text-orange-500 text-2xl">About</a>
+                        <a href="{{ route('about') }}" class="text-white hover:text-orange-500 ">About</a>
                     </li>
                     <li>
-                        <a href="{{ route('carreport') }}" class="text-white hover:text-orange-500 text-2xl">Car Report</a>
+                        <a href="{{ route('carreport') }}" class="text-white hover:text-orange-500 ">Car Report</a>
                     </li>
                     <li>
-                        <a href="{{ route('contact') }}" class="text-white hover:text-orange-500 text-2xl">Contact</a>
+                        <a href="{{ route('contact') }}" class="text-white hover:text-orange-500 ">Contact</a>
                     </li>
                 </ul>
             </div>
