@@ -1,31 +1,31 @@
-<nav class="bg-transparent fixed w-full z-20 top-0 left-0">
-    <div class="mx-auto container" style="max-width: 1000px">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+<nav class="bg-transparent fixed w-full z-20">
+    <div>
+        <div class="flex flex-wrap p-4 w-full">
 
             {{-- LOGO --}}
-            <div class="flex items-center z-50">
+            <div class="flex items-center mx-20">
                 <img src="{{ asset('images/car (2).png') }}" alt="Logo" class="h-10 mr-3">
-                <a href="{{ route('home') }}" class="text-white text-xl font-bold">HISTORY</a>
+                <a href="{{ route('home') }}" class="text-white text-xl font-bold justify-items-start">HISTORY</a>
             </div>
 
             {{-- NAVIGATION LINKS --}}
-            <div class="items-center justify-between hidden w-full md:flex md:w-auto" id="navbar-sticky">
-                <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg md:flex-row md:space-x-8 md:mt-0">
+            <div class="md:flex-1  flex items-center justify-end md:justify-center">
+                <ul class="md:flex flex-col md:flex-row md:space-x-20 mt-4 md:mt-0">
                     <li>
-                        <a href="{{ route('home') }}" class="text-white hover:text-orange-500">Home</a>
+                        <a href="{{ route('home') }}" class="text-white hover:text-orange-500 text-2xl">Home</a>
                     </li>
                     <li>
-                        <a href="{{ route('about') }}" class="text-white hover:text-orange-500">About</a>
+                        <a href="{{ route('about') }}" class="text-white hover:text-orange-500 text-2xl">About</a>
                     </li>
                     <li>
-                        <a href="{{ route('carreport') }}" class="text-white hover:text-orange-500">Car
-                            Report</a>
+                        <a href="{{ route('carreport') }}" class="text-white hover:text-orange-500 text-2xl">Car Report</a>
                     </li>
                     <li>
-                        <a href="{{ route('contact') }}" class="text-white hover:text-orange-500">Contact</a>
+                        <a href="{{ route('contact') }}" class="text-white hover:text-orange-500 text-2xl">Contact</a>
                     </li>
                 </ul>
             </div>
+
 
 
             {{-- LANGAUGE SELECTOR --}}

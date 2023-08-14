@@ -23,7 +23,7 @@
 
 
 
-        <div class="flex justify-center w-full mt-5">
+        <div class="flex justify-center w-full md:mt-10 gap-20">
 
 
 
@@ -55,7 +55,7 @@
 
 
 
-        <div class="md:flex justify-center">
+        <div class="md:flex justify-center md:mt-28">
             <h1 class="text-center m-5 font-bold text-blue-950 text-2xl md:text-4xl w-4/5 md:w-4/12">If You Got Any Questions
                 Please Do Not Hesitate To Send Us A Message</h1>
         </div>
@@ -100,7 +100,7 @@
         <!-- form -->
 
         <div class="flex justify-center ">
-            <button class="border-2 bg-orange-500 text-white text-1xl px-10 py-3 rounded-lg ">Send Message</button>
+            <button class="border-2 bg-orange-500 text-white text-1xl px-10 py-3 rounded-lg md:mt-10">Send Message</button>
         </div>
 
 
