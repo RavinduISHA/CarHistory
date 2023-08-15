@@ -8,20 +8,15 @@
                 <h1 class="text-white font-bold mt-8 px-2">HISTORY</h1>
             </div>
             <div class="flex-col md:w-3/4 text-white font-bold">
-                <p>Celebrating Japanese import cars' legacy, inspiring global enthusiasts with information, community, and up-to-date content.</p>
+                <p> brating Japanese import cars' legacy, inspiring global enthusiasts with information, community, and up-to-date content.</p>
             </div>
 
             <div class="flex-col md:w-3/4 text-white font-bold">
-                <label for="search" class="block text-lg mb-2"></label>
-                <div class="relative">
+                <div class="flex relative pb-0">
                     <input type="text" id="search" name="search" placeholder="VIN or Chassis Number" class="w-full px-4 py-2 text-black bg-white rounded-md focus:outline-none focus:ring focus:border-blue-300" />
-                    <button type="button" class="absolute top-1/2 right-2 transform -translate-y-1/2 focus:outline-none">
-                        <div class="w-8 h-8 text-black font-bold flex items-center justify-center">
-                            <svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 15l5.5 5.5M10 18a8 8 0 100-16 8 8 0 000 16z"></path>
-                            </svg>
-                        </div>
-                    </button>
+                    <div class="bg-orange-500 rounded-md p-2 w-14 h-8 relative -left-14 top-1.5">
+                    <img src="{{ URL('images/search-interface-symbol.png') }}" class="w-5 relative left-1.5">
+                    </div>
                 </div>
             </div>
 

@@ -2,30 +2,67 @@
     <div>
         <div class="flex flex-wrap p-4 w-full">
 
+        {{-- HAMBURGER ICON --}}
+        <div class="w-1/12 md:hidden items-end justify-end border-2 border-red-500">
+            <button data-collapse-toggle="navbar-language" type="button" class="p-2 w-10 h-10 justify-center text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-language" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+        </div>
+
             {{-- LOGO --}}
-            <div class="flex items-center mx-20">
+            <div class="w-10/12 md:w-1/12 md:mx-20">
+            <div class="flex items-center">
                 <img src="{{ asset('images/car (2).png') }}" alt="Logo" class="h-10 mr-3">
                 <a href="{{ route('home') }}" class="text-white text-xl font-bold justify-items-start">HISTORY</a>
             </div>
+        </div>
 
             {{-- NAVIGATION LINKS --}}
-            <div class="md:flex-1  flex items-center justify-end md:justify-center">
-                <ul class="md:flex flex-col md:flex-row md:space-x-20 mt-4 md:mt-0">
-                    <li>
-                        <a href="{{ route('home') }}" class="text-white hover:text-orange-500 ">Home</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('about') }}" class="text-white hover:text-orange-500 ">About</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('carreport') }}" class="text-white hover:text-orange-500 ">Car Report</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('contact') }}" class="text-white hover:text-orange-500 ">Contact</a>
-                    </li>
-                </ul>
-            </div>
+            <div class="hidden md:flex md:flex-1 md:items-center md:justify-center">
+            <ul class="md:flex flex-col md:flex-row md:space-x-20 mt-4 md:mt-0">
+                <li>
+                    <a href="{{ route('home') }}" class="text-white hover:text-orange-500 ">Home</a>
+                </li>
+                <li>
+                    <a href="{{ route('about') }}" class="text-white hover:text-orange-500 ">About</a>
+                </li>
+                <li>
+                    <a href="{{ route('carreport') }}" class="text-white hover:text-orange-500 ">Car Report</a>
+                </li>
+                <li>
+                    <a href="{{ route('contact') }}" class="text-white hover:text-orange-500 ">Contact</a>
+                </li>
+            </ul>
+        </div>
 
+
+        {{-- TOGGLED NAVIGATION LINKS (MOBILE) --}}
+        <div class="w-full md:hidden mt-4" id="mobileNav">
+            <ul class="flex flex-col space-y-2">
+                <li>
+                    <a href="{{ route('home') }}" class="text-white hover:text-orange-500 block">Home</a>
+                </li>
+                <li>
+                    <a href="{{ route('about') }}" class="text-white hover:text-orange-500 block">About</a>
+                </li>
+                <li>
+                    <a href="{{ route('carreport') }}" class="text-white hover:text-orange-500 block">Car Report</a>
+                </li>
+                <li>
+                    <a href="{{ route('contact') }}" class="text-white hover:text-orange-500 block">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <script>
+    document.querySelector('[data-collapse-toggle="navbar-language"]').addEventListener('click', function() {
+        const mobileNav = document.getElementById('mobileNav');
+        mobileNav.classList.toggle('hidden');
+    });
+</script>
 
 
             {{-- LANGAUGE SELECTOR --}}

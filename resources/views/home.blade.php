@@ -285,14 +285,13 @@
         </div>
 
         <div class=" flex justify-center w-full">
-            <div class="bg-[url('../img/homecar2.jpg')] w-full md:mx-16 bg-cover bg-center py-40 justify center">
-
+            <div class="bg-[url('../img/homecar2.jpg')] w-full md:mx-16 bg-cover bg-center py-20 justify center">
 
 
                 <!----->
                 <div class="container mx-auto ">
                     <!-- Assuming the container has a fixed height for the percentage height to work -->
-                    <div>
+                    <div class="">
                         <h1 class="text-blue-900 font-bold text-4xl text-center border-green-800">What our Community is Saying</h1>
                     </div>
 
@@ -578,7 +577,7 @@
                             <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
                         </div>
                         <!-- Slider controls -->
-                        <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                        <button type="button" class="absolute top-0 md:-left-16 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
                             <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-500 dark:bg-orange-500 group-hover:bg-orange-00 dark:group-hover:bg-orange-700 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-orange-500 group-focus:outline-none">
                                 <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
@@ -586,7 +585,7 @@
                                 <span class="sr-only">Previous</span>
                             </span>
                         </button>
-                        <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                        <button type="button" class="absolute top-0 md:-right-16 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
                             <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-500 dark:bg-orange-500 group-hover:bg-orange-00 dark:group-hover:bg-orange-700 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-orange-500 group-focus:outline-none">
                                 <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
