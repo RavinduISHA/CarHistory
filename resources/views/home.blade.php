@@ -1,5 +1,6 @@
 @extends('layout.layout')
 @section('content')
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 <div class="w-full">
@@ -9,18 +10,17 @@
     <div class="bg-[url('../img/Pinna.jpg')] bg-cover bg-center py-4 md:py-1 justify-center h-[32rem]">
         <div class="md:mt-0 mt-20">
             <div class="md:flex flex-col md:justify-start justify-center md:mx-20 md:mt-40 mx-4 md:text-left ">
-                <h1 class="text-orange-500 font-bold text-4xl md:text-6xl ">Know Before You Buy</h1>
+                <h1 class="text-orange-500 font-bold text-4xl md:text-6xl tracking-wider">
+                    Know&nbsp;Before&nbsp;You&nbsp;Buy
+                </h1>
                 <p class="md:text-2xl text-white w-full md:w-6/12 mt-3 md:mt-5">Your go-to resource for comprehensive vehicle history checks, empowering you with essential insights and peace of mind</p>
             </div>
             <!-- TOPIC -->
 
 
-
-
             <div class="flex flex-col md:flex-row md:mx-20">
                 <div class="md:w-5/12 md:mb-40 items-start text-center md:text-left">
-                    <div class="md:w-10/12 w-full md:mt-20 mt-10">
-                        <label for="search" class="block text-lg mb-2"></label>
+                    <div class="md:w-12/12 w-full md:mt-20 mt-10 ">
                         <div class="relative w-full">
                             <input type="text" id="search" name="search" placeholder="VIN or Chassis Number" class="w-full px-4 py-2 text-black bg-white rounded-md focus:outline-none focus:ring focus:border-blue-300" />
                             <button type="button" class="absolute top-1/2 right-2 transform -translate-y-1/2 focus:outline-none bg-orange-500 text-white px-3 py-1 rounded">
@@ -38,7 +38,7 @@
                 </div>
 
                 <!-- car -->
-                <div class="md:w-7/12 w-full">
+                <div class="md:w-5/12 w-full border-2 md:ml-40">
                     <div class="mt-auto">
                         <img src="{{ asset('images/pngegg.png') }}" class="">
                     </div>
@@ -284,8 +284,8 @@
 
         </div>
 
-        <div class=" flex justify-center w-full">
-            <div class="bg-[url('../img/homecar2.jpg')] w-full md:mx-16 bg-cover bg-center py-20 justify center">
+        <div class=" flex justify-center w-12/12">
+            <div class="bg-[url('../img/homecar2.jpg')] w-10/12 bg-cover bg-center py-20 px-10 justify center ">
 
 
                 <!----->
@@ -299,18 +299,54 @@
                     <!-- CARASOUL -->
 
 
-                    <div id="default-carousel" class="relative w-full" data-carousel="slide">
-                        <!-- Carousel wrapper -->
-                        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                    <section  id="carouselSection">
+            <div id="cCarousel">
+                <div class="arrow" id="prev"><i class="fas fa-chevron-left" ></i></div>
+                <div class="arrow" id="next"><i class="fas fa-chevron-right"></i></div>
 
+                <div id="carousel-vp" class=" justify-between w-">
+                    <div id="cCarousel-inner">
+                        <article class="cCarousel-item">
+                            <div class="border-4 border-white rounded-3xl p-4 bg-black w-full mt-10">
+                                <div class="flex justify-center items-center ">
+                                    <img src="{{ URL('images/Group_94.png') }}" class="z-20 md:w-40 w-24 mx-auto -mt-12">
+                                </div>
+                                <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
+                                <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
+                                <div class="flex justify-center items-center">
+                                    <img src="{{ URL('images/Group_60.png') }}" class="">
+                                </div>
+                            </div>
+                        </article>
 
-                            <!-- 1 row with 3 images start -->
+                        <article class="cCarousel-item">
+                        <div class="border-4 border-white rounded-3xl p-4 bg-black w-full mt-10">
+                                    <div class="flex justify-center items-center ">
+                                        <img src="{{ URL('images/Group_95.png') }}" class="z-20 md:w-40 w-24 mx-auto -mt-12">
+                                    </div>
+                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
+                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
+                                    <div class="flex justify-center items-center">
+                                        <img src="{{ URL('images/Group_60.png') }}" class="">
+                                    </div>
+                                </div>
+                        </article>
 
-                            <!-- Item 1 -->
-                            <div class="hidden duration-700 ease-in-out flex gap-2" data-carousel-item>
-                                <!-- Image 1 -->
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
+                        <article class="cCarousel-item">
+                        <div class="border-4 border-white rounded-3xl p-4 bg-black w-full mt-10">
+                                    <div class="flex justify-center items-center ">
+                                        <img src="{{ URL('images/Group_96.png') }}" class="z-20 md:w-40 w-24 mx-auto -mt-12">
+                                    </div>
+                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
+                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
+                                    <div class="flex justify-center items-center">
+                                        <img src="{{ URL('images/Group_60.png') }}" class="">
+                                    </div>
+                                </div>
+                        </article>
 
+                        <article class="cCarousel-item">
+                        <div class="border-4 border-white rounded-3xl p-4 bg-black w-full mt-10">
                                     <div class="flex justify-center items-center ">
                                         <img src="{{ URL('images/Group_94.png') }}" class="z-20 md:w-40 w-24 mx-auto -mt-12">
                                     </div>
@@ -320,14 +356,12 @@
                                         <img src="{{ URL('images/Group_60.png') }}" class="">
                                     </div>
                                 </div>
+                        </article>
 
-                                <!-- Image 1 end -->
-
-                                <!-- Image 2 -->
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
+                        <article class="cCarousel-item">
+                        <div class="border-4 border-white rounded-3xl p-4 bg-black w-full mt-10">
                                     <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_95.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12">
+                                        <img src="{{ URL('images/Group_94.png') }}" class="z-20 md:w-40 w-24 mx-auto -mt-12">
                                     </div>
                                     <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
                                     <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
@@ -335,13 +369,12 @@
                                         <img src="{{ URL('images/Group_60.png') }}" class="">
                                     </div>
                                 </div>
+                        </article>
 
-                                <!-- Image 2 end -->
-
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
+                        <article class="cCarousel-item">
+                        <div class="border-4 border-white rounded-3xl p-4 bg-black w-full mt-10">
                                     <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_96.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12">
+                                        <img src="{{ URL('images/Group_95.png') }}" class="z-20 md:w-40 w-24 mx-auto -mt-12">
                                     </div>
                                     <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
                                     <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
@@ -349,251 +382,11 @@
                                         <img src="{{ URL('images/Group_60.png') }}" class="">
                                     </div>
                                 </div>
-
-                                <!-- Image 2 end -->
-
-
-
-                            </div>
-
-                            <!-- 1 row with 3 images end -->
-
-
-                            <div class="hidden duration-700 ease-in-out flex gap-2" data-carousel-item>
-                                <!-- Image 1 -->
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
-                                    <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_94.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12">
-                                    </div>
-                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
-                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
-                                    <div class="flex justify-center items-center">
-                                        <img src="{{ URL('images/Group_60.png') }}" class="">
-                                    </div>
-                                </div>
-
-                                <!-- Image 1 end -->
-
-                                <!-- Image 2 -->
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
-                                    <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_95.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12">
-                                    </div>
-                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
-                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
-                                    <div class="flex justify-center items-center">
-                                        <img src="{{ URL('images/Group_60.png') }}" class="">
-                                    </div>
-                                </div>
-
-                                <!-- Image 2 end -->
-
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
-                                    <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_96.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12">
-                                    </div>
-                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
-                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
-                                    <div class="flex justify-center items-center">
-                                        <img src="{{ URL('images/Group_60.png') }}" class="">
-                                    </div>
-                                </div>
-
-                                <!-- Image 2 end -->
-
-
-
-                            </div>
-
-                            <!-- 1 row with 3 images end -->
-
-
-                            <div class="hidden duration-700 ease-in-out flex gap-2" data-carousel-item>
-                                <!-- Image 1 -->
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
-                                    <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_94.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12">
-                                    </div>
-                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
-                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
-                                    <div class="flex justify-center items-center">
-                                        <img src="{{ URL('images/Group_60.png') }}" class="">
-                                    </div>
-                                </div>
-
-                                <!-- Image 1 end -->
-
-                                <!-- Image 2 -->
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
-                                    <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_95.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12">
-                                    </div>
-                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
-                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
-                                    <div class="flex justify-center items-center">
-                                        <img src="{{ URL('images/Group_60.png') }}" class="">
-                                    </div>
-                                </div>
-
-                                <!-- Image 2 end -->
-
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
-                                    <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_95.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12">
-                                    </div>
-                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
-                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
-                                    <div class="flex justify-center items-center">
-                                        <img src="{{ URL('images/Group_60.png') }}" class="">
-                                    </div>
-                                </div>
-
-                                <!-- Image 2 end -->
-
-
-
-                            </div>
-
-                            <!-- 1 row with 3 images end -->
-
-                            <div class="hidden duration-700 ease-in-out flex gap-2" data-carousel-item>
-                                <!-- Image 1 -->
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
-                                    <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_96.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12">
-                                    </div>
-                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
-                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
-                                    <div class="flex justify-center items-center">
-                                        <img src="{{ URL('images/Group_60.png') }}" class="">
-                                    </div>
-                                </div>
-
-                                <!-- Image 1 end -->
-
-                                <!-- Image 2 -->
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
-                                    <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_94.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12">
-                                    </div>
-                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
-                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
-                                    <div class="flex justify-center items-center">
-                                        <img src="{{ URL('images/Group_60.png') }}" class="">
-                                    </div>
-                                </div>
-
-                                <!-- Image 2 end -->
-
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
-                                    <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_95.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12 ">
-                                    </div>
-                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
-                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
-                                    <div class="flex justify-center items-center">
-                                        <img src="{{ URL('images/Group_60.png') }}" class="">
-                                    </div>
-                                </div>
-
-                                <!-- Image 2 end -->
-
-
-
-                            </div>
-
-
-
-                            <div class="hidden duration-700 ease-in-out flex gap-2" data-carousel-item>
-                                <!-- Image 1 -->
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
-                                    <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_96.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12">
-                                    </div>
-                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
-                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
-                                    <div class="flex justify-center items-center">
-                                        <img src="{{ URL('images/Group_60.png') }}" class="">
-                                    </div>
-                                </div>
-
-                                <!-- Image 1 end -->
-
-                                <!-- Image 2 -->
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
-                                    <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_94.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12">
-                                    </div>
-                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
-                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
-                                    <div class="flex justify-center items-center">
-                                        <img src="{{ URL('images/Group_60.png') }}" class="">
-                                    </div>
-                                </div>
-
-                                <!-- Image 2 end -->
-
-                                <div class="border-4 border-white rounded-lg p-4 bg-black w-4/12 mt-10">
-
-                                    <div class="flex justify-center items-center ">
-                                        <img src="{{ URL('images/Group_95.png') }}" class="z-20 md:w-40 w-24 mx-auto  -mt-12">
-                                    </div>
-                                    <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">Adam Milner</p>
-                                    <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
-                                    <div class="flex justify-center items-center">
-                                        <img src="{{ URL('images/Group_60.png') }}" class="">
-                                    </div>
-                                </div>
-
-                                <!-- Image 2 end -->
-
-
-
-
-
-
-                            </div>
-
-
-                        </div>
-
-                        <!-- Slider indicators -->
-                        <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-                            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-                            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-                        </div>
-                        <!-- Slider controls -->
-                        <button type="button" class="absolute top-0 md:-left-16 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-500 dark:bg-orange-500 group-hover:bg-orange-00 dark:group-hover:bg-orange-700 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-orange-500 group-focus:outline-none">
-                                <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
-                                </svg>
-                                <span class="sr-only">Previous</span>
-                            </span>
-                        </button>
-                        <button type="button" class="absolute top-0 md:-right-16 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-orange-500 dark:bg-orange-500 group-hover:bg-orange-00 dark:group-hover:bg-orange-700 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-orange-500 group-focus:outline-none">
-                                <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
-                                </svg>
-                                <span class="sr-only">Next</span>
-                            </span>
-                        </button>
+                        </article>
                     </div>
+                </div>
+            </div>
+        </section>
 
 
 
@@ -603,6 +396,8 @@
                 </div>
             </div>
         </div>
+
+     
 
         <!-- Our Trusted Brand  Part-->
         <div class="flex justify-center">
