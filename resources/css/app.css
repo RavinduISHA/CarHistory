@@ -1,24 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-* {
+/* * {
     box-sizing: border-box;
     font-family: "Rubik";
-}
+} */
 
-#carouselSection {
-    padding: 20px;
-}
-
-#cCarousel {
-    position: relative;
-    max-width: 1200px;
-    margin: auto;
-}
-
-#cCarousel .arrow {
+/* #cCarousel .arrow {
     position: absolute;
-    top: 50%;
+    top: 45%;
     display: flex;
     width: 45px;
     height: 45px;
@@ -30,29 +20,19 @@
     color: white;
     background: #ff5a1f;
     cursor: pointer;
-}
+} */
 
-#cCarousel #prev {
-    left: 0px;
-}
-
-#cCarousel #next {
-    right: 0px;
-}
-
-#carousel-vp {
-    width: 1080px;
+/* #carousel-vp {
+    width: 1000px;
     height: 400px;
     display: flex;
     align-items: center;
     position: relative;
     overflow: hidden;
     margin: auto;
-}
+} */
 
-#prev {
-    background-color: orange;
-}
+
 
 @media (max-width: 770px) {
     #carousel-vp {
@@ -64,15 +44,23 @@
     #carousel-vp {
         width: 250px;
     }
+
+    #cCarousel #prev{
+      margin-left: 12px;
+    }
+    #cCarousel #next{
+   margin-right: -100px;
+    }
+
+    #cCarousel #cCarousel-inner {
+   gap: 20px;
+    
+    }
+
+    
 }
 
-#cCarousel #cCarousel-inner {
-    display: flex;
-    position: absolute;
-    transition: 0.3s ease-in-out;
-    gap: 60px;
-    left: 0px;
-}
+
 
 .cCarousel-item {
     width: 300px;
@@ -81,6 +69,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+
 }
 
 .cCarousel-item img {
@@ -107,3 +96,4 @@
     font-weight: bold;
     cursor: pointer;
 }
+

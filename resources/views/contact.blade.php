@@ -23,12 +23,7 @@
 
 
 
-        <div class="flex justify-center w-full md:mt-10 gap-20">
-
-
-
-
-            <div class="w-60">
+        <div class="w-60">
                 <img src="images/Group 88.png" class="w-20 h-20 mx-auto">
                 <h1 class="  text-center">Address</h1>
                 <h1 class=" text-center">info.carhistory.com.au</h1>
@@ -52,7 +47,6 @@
             </div>
 
         </div>
-
 
 
         <div class="md:flex justify-center md:mt-28">
