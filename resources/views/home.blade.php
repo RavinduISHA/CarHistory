@@ -13,11 +13,11 @@
                 <h1 class="text-orange-500 font-bold md:text-6xl tracking-wider md:mx-0 mx-10">
                     Know&nbsp;Before&nbsp;You&nbsp;Buy
                 </h1>
-                <p class="md:text-2xl text-white w-full md:w-6/12 mt-3 md:mt-5 md:mx-0 mx-5 ">Your go-to resource for
-                    comprehensive vehicle history checks, empowering you with essential insights and peace of mind</p>
+                <p class="md:text-2xl text-white w-full md:w-6/12 mt-3 md:mt-5 md:mx-0 mx-5 ">
+                    Your go-to resource for comprehensive vehicle history checks, empowering you with essential insights and peace of mind
+                </p>
             </div>
             <!-- TOPIC -->
-
 
             <div class="flex flex-col md:flex-row md:mx-20">
                 <div class="md:w-5/12 md:mb-40 items-start text-center md:text-left">
@@ -50,12 +50,7 @@
             </div>
 
         </div>
-
-
     </div>
-
-
-
 
     <div class="w-full">
         <div class="container mx-auto">
@@ -63,17 +58,16 @@
             <div class="flex justify-center md:mt-20">
 
                 <div class="w-1/3 px-4 md:px-8 my-16">
-                    <h1 class="text-3xl text-blue-900 font-bold 1/3">Why do u need to check Japanese Import Cars History
+                    <h1 class="text-3xl text-blue-900 font-bold 1/3">
+                        Why do u need to check Japanese Import Cars History
                     </h1>
 
                 </div>
 
                 <div class="w-1/2 px-4 md:px-8 my-16">
-                    <p class="text-md font-bold text-gray-500">Checking the history of Japanese import cars is essential
-                        for transparency and peace of mind.
-                        It verifies authenticity, reveals maintenance records, uncovers accidents and damages, prevents
-                        odometer fraud, identifies finance or lien issues, and addresses recalls or safety-related
-                        concerns.</p>
+                    <p class="text-md font-bold text-gray-500">
+                        Checking the history of Japanese import cars is essential for transparency and peace of mind. It verifies authenticity, reveals maintenance records, uncovers accidents and damages, prevents odometer fraud, identifies finance or lien issues, and addresses recalls or safety-related concerns.
+                    </p>
 
                 </div>
 
@@ -83,33 +77,28 @@
                 <div class="md:w-1/2 px-4 md:text-left text-center md:px-8">
                     <img src="{{ URL('images/Group_87.png')}}" class=" md:mx-0 mx-auto">
                     <h1 class="text-md font-bold text-blue-900">Authenticity</h1>
-                    <p class="text-md font-bold text-blue-900">Verifying the car's history ensures that it is not stolen
-                        or involved in any illegal activities.</p>
+                    <p class="text-md font-bold text-blue-900">Verifying the car's history ensures that it is not stolen or involved in any illegal activities.</p>
                 </div>
                 <div class="w-0.5 h-13 bg-orange-500"></div>
 
                 <div class="md:w-1/2 px-4 md:text-left text-center md:px-8">
                     <img src="{{ URL('images/Group_88.png')}}" class=" md:mx-0 mx-auto">
                     <h1 class="text-md font-bold text-blue-900">Maintenance and Service</h1>
-                    <p class="text-md font-bold text-blue-900">Understanding the vehicle's maintenance and service
-                        history helps assess its overall condition and potential maintenance needs.</p>
+                    <p class="text-md font-bold text-blue-900">Understanding the vehicle's maintenance and service history helps assess its overall condition and potential maintenance needs.</p>
                 </div>
                 <div class="w-0.5 h-13 bg-orange-500"></div>
 
                 <div class="md:w-1/2 px-4 md:text-left text-center md:px-8">
                     <img src="{{ URL('images/Group_89.png')}}" class=" md:mx-0 mx-auto">
                     <h1 class="text-md font-bold text-blue-900">Accidents and Damages</h1>
-                    <p class="text-md font-bold text-blue-900">History checks reveal any accident records or damages the
-                        car may have sustained, allowing you to assess its structural integrity and potential repairs.
-                    </p>
+                    <p class="text-md font-bold text-blue-900">History checks reveal any accident records or damages the car may have sustained, allowing you to assess its structural integrity and potential repairs.</p>
                 </div>
                 <div class="w-0.5 h-13 bg-orange-500"></div>
 
                 <div class="md:w-1/2 px-4 md:text-left text-center md:px-8">
                     <img src="{{ URL('images/Group_90.png')}}" class=" md:mx-0 mx-auto">
                     <h1 class="text-md font-bold text-blue-900">Recall Information</h1>
-                    <p class="text-md font-bold text-blue-900">History checks provide information on any recalls or
-                        safety-related issues associated with the specific make and model of the imported car.</p>
+                    <p class="text-md font-bold text-blue-900">History checks provide information on any recalls or safety-related issues associated with the specific make and model of the imported car.</p>
                 </div>
 
             </div>
@@ -121,14 +110,11 @@
                 <div
                     class="absolute inset-0 md:flex flex-col justify-center items-start text-center text-white md:mt-20 md:pl-20">
                     <p class="md:text-4xl font-bold text-orange-600">Preserving the Legacy</p>
-                    <p class="md:text-2xl  md:w-3/12 md:text-left ">Uncovering the Past of Japanese Cars
-                        through an In-depth Sample Report</p>
+                    <p class="md:text-2xl  md:w-3/12 md:text-left ">Uncovering the Past of Japanese Cars through an In-depth Sample Report</p>
                     <button class=" md:text-md font-bold bg-orange-600 rounded-lg px-4 py-2 md:mt-5">GET REPORT</button>
                 </div>
             </div>
         </div>
-
-
 
         <div>
             <div class="md:flex w-11/12">
@@ -136,11 +122,9 @@
                     <img src="{{ URL('images/homecar.png')}}" alt="Your Image">
                 </div>
                 <div class="md:w-6/12">
-                    <p class="md:text-4xl text-blue-900 font-bold md:mt-60 md:text-left text-center ">Why We Are the
-                        Premier Choice for Car Import History Enthusiasts</p>
+                    <p class="md:text-4xl text-blue-900 font-bold md:mt-60 md:text-left text-center ">Why We Are the Premier Choice for Car Import History Enthusiasts</p>
                 </div>
             </div>
-
 
             <!--  NEW ROW -->
             <div class="flex justify-center">
@@ -158,9 +142,7 @@
                             </div>
 
                             <div class="w-full mt-4">
-                                <p class="text-xl md:text-2xl px-2 md:px-32">
-                                    Ownership, accidents, mileage, service records. Transparent info aids buyers,
-                                    revealing issues and ensuring informed decisions.
+                                <p class="text-xl md:text-2xl px-2 md:px-32"> Ownership, accidents, mileage, service records. Transparent info aids buyers, revealing issues and ensuring informed decisions.
                                 </p>
                             </div>
 
@@ -177,9 +159,7 @@
                             </div>
 
                             <div class="w-full mt-4">
-                                <p class="text-xl md:text-2xl px-2 md:px-32">
-                                    Reputable car history service offers reliable, accurate info on vehicle history,
-                                    aiding buyers in assessing condition and reliability pre-purchase.
+                                <p class="text-xl md:text-2xl px-2 md:px-32"> Reputable car history service offers reliable, accurate info on vehicle history, aiding buyers in assessing condition and reliability pre-purchase.
                                 </p>
                             </div>
 
@@ -208,9 +188,7 @@
                             </div>
 
                             <div class="w-full mt-4">
-                                <p class="text-xl md:text-2xl px-2 md:px-32">
-                                    Car history reports provide peace of mind by revealing crucial information, reducing
-                                    the risk of hidden problems when buying a car.
+                                <p class="text-xl md:text-2xl px-2 md:px-32">Car history reports provide peace of mind by revealing crucial information, reducing the risk of hidden problems when buying a car.
                                 </p>
                             </div>
 
@@ -227,9 +205,7 @@
                             </div>
 
                             <div class="w-full mt-4">
-                                <p class="text-xl md:text-2xl px-2 md:px-32">
-                                    Reputable car history service offers reliable, accurate info on vehicle history,
-                                    aiding buyers in assessing condition and reliability pre-purchase.
+                                <p class="text-xl md:text-2xl px-2 md:px-32">Reputable car history service offers reliable, accurate info on vehicle history, aiding buyers in assessing condition and reliability pre-purchase.
                                 </p>
                             </div>
 
@@ -241,14 +217,9 @@
 
                     <!-- Repeat the same structure for other rows and boxes -->
 
-
-
-
                     <!--END NEW ROW -->
 
-
                     <!--  NEW ROW -->
-
 
                     <!-- one row . -->
                     <div class="flex flex-col md:flex-row">
@@ -263,9 +234,7 @@
                             </div>
 
                             <div class="w-full mt-4">
-                                <p class="text-xl md:text-2xl px-2 md:px-32">
-                                    Ownership, accidents, mileage, service records. Transparent info aids buyers,
-                                    revealing issues and ensuring informed decisions.
+                                <p class="text-xl md:text-2xl px-2 md:px-32">Ownership, accidents, mileage, service records. Transparent info aids buyers, revealing issues and ensuring informed decisions.
                                 </p>
                             </div>
 
@@ -282,9 +251,7 @@
                             </div>
 
                             <div class="w-full mt-4">
-                                <p class="text-xl md:text-2xl px-2 md:px-32">
-                                    Reputable car history service offers reliable, accurate info on vehicle history,
-                                    aiding buyers in assessing condition and reliability pre-purchase.
+                                <p class="text-xl md:text-2xl px-2 md:px-32">Reputable car history service offers reliable, accurate info on vehicle history, aiding buyers in assessing condition and reliability pre-purchase.
                                 </p>
                             </div>
 
@@ -298,15 +265,13 @@
 
                     <!--END NEW ROW -->
                 </div>
-
             </div>
-
-
         </div>
 
         <div class="bg-[url('../img/homecar2.jpg')] w-full bg-cover bg-center">
             <div class="container mx-auto py-10 px-5">
-                <h1 class="text-blue-900 font-bold text-4xl text-center border-green-800">What our Community is Saying</h1>
+                <h1 class="text-blue-900 font-bold text-4xl text-center border-green-800">What our Community is Saying
+                </h1>
 
                 <!-- FLICKITY CAROUSEL -->
                 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
@@ -318,57 +283,42 @@
                     "pageDots": true,
                     "draggable": true
                 }'>
-                    @for($i = 1; $i <= 4; $i++)
-                    <div class="carousel-cell w-full h-full md:w-1/3 md:px-20 px-20">
+                @for($i = 1; $i <= 4; $i++)
+                <div class="carousel-cell w-full h-full md:w-1/3 md:px-20 px-20">
                         <div class="border-4 border-white rounded-3xl p-4 bg-black w-full mx-auto mt-10 py-10">
                             <img src="{{ URL('images/Group_94.png') }}" class="md:w-40 w-24 mx-auto -mt-20">
                             <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">AdamMilner</p>
-                            <p class="text-white font-bold md:text-md text-sm text-center">LMN Services
-                                provided a flawless, professional experience. Their courteous team
-                                guided me seamlessly. Highly recommended!
-                            </p>
+                            <p class="text-white font-bold md:text-md text-sm text-center">LMN Services provided a flawless, professional experience. Their courteous team guided me seamlessly. Highly recommended!</p>
                             <img src="{{ URL('images/Group_60.png') }}" class="mx-auto">
                         </div>
-                    </div>
-                    @endfor
                 </div>
+                @endfor
             </div>
         </div>
-
-        <!-- Our Trusted Brand  Part-->
-        <div class="flex justify-center">
-            <div class=" w-9/12 flex-col  items-center justify-center mt-20 ">
-                <h1 class="text-blue-900 font-bold text-4xl md:text-4xl text-center pb-2">Discover the Wide Range of
-                    Popular Models from Japan</h1> <!-- Increase the heading size for larger screens -->
-                <p class="text-gray-500 md:text-3xl pb-16 text-center w-12/12 ">A variety of cars are imported from
-                    Japan, known for their reliability, quality, and advanced technology. These imports cater to
-                    different vehicle categories such as sedans, SUVs, hatchbacks, sports cars, and more, offering a
-                    diverse range of options for consumers in international markets. </p>
-            </div>
-        </div>
-        <!-- Our Trusted Brand  Part End-->
-
-        <!-- Vehicle Icon Part-->
-        <div class="flex justify-center">
-            <div class="flex justify-center ">
-                <div class="flex flex-col md:flex-row  mb-14 w-9/12">
-                    <img src="{{ URL('images/Group 151.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
-                    <img src="{{ URL('images/Group 152.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
-                    <img src="{{ URL('images/Group 153.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
-                    <img src="{{ URL('images/Group 154.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
-                    <img src="{{ URL('images/Group 155.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
-                    <img src="{{ URL('images/Group 156.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
-                </div>
-            </div>
-        </div>
-        <!-- Vehicle Icon Part End-->
-
-
-
     </div>
 
+    <!-- Our Trusted Brand  Part-->
+    <div class="flex justify-center">
+        <div class=" w-9/12 flex-col  items-center justify-center mt-20 ">
+            <h1 class="text-blue-900 font-bold text-4xl md:text-4xl text-center pb-2">Discover the Wide Range of Popular Models from Japan</h1> <!-- Increase the heading size for larger screens -->
+            <p class="text-gray-500 md:text-3xl pb-16 text-center w-12/12 ">A variety of cars are imported from Japan, known for their reliability, quality, and advanced technology. These imports cater to different vehicle categories such as sedans, SUVs, hatchbacks, sports cars, and more, offering a diverse range of options for consumers in international markets. </p>
+        </div>
+    </div>
+    <!-- Our Trusted Brand  Part End-->
 
-
-
-
-    @endsection
+    <!-- Vehicle Icon Part-->
+    <div class="flex justify-center">
+        <div class="flex justify-center ">
+            <div class="flex flex-col md:flex-row  mb-14 w-9/12">
+                <img src="{{ URL('images/Group 151.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
+                <img src="{{ URL('images/Group 152.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
+                <img src="{{ URL('images/Group 153.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
+                <img src="{{ URL('images/Group 154.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
+                <img src="{{ URL('images/Group 155.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
+                <img src="{{ URL('images/Group 156.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
+            </div>
+        </div>
+    </div>
+    <!-- Vehicle Icon Part End-->
+</div>
+@endsection
