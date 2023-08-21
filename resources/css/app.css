@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --scrollPosition: 0;
+}
+
 /* * {
     box-sizing: border-box;
     font-family: "Rubik";
@@ -32,8 +37,6 @@
     margin: auto;
 } */
 
-
-
 @media (max-width: 770px) {
     #carousel-vp {
         width: 510px;
@@ -45,22 +48,17 @@
         width: 250px;
     }
 
-    #cCarousel #prev{
-      margin-left: 12px;
+    #cCarousel #prev {
+        margin-left: 12px;
     }
-    #cCarousel #next{
-   margin-right: -100px;
+    #cCarousel #next {
+        margin-right: -100px;
     }
 
     #cCarousel #cCarousel-inner {
-   gap: 20px;
-    
+        gap: 20px;
     }
-
-    
 }
-
-
 
 .cCarousel-item {
     width: 300px;
@@ -69,7 +67,6 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-
 }
 
 .cCarousel-item img {
@@ -96,4 +93,3 @@
     font-weight: bold;
     cursor: pointer;
 }
-

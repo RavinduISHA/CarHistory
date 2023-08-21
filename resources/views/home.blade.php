@@ -8,7 +8,7 @@
 
     <!-- BACKGROUND -->
     <div class="bg-[url('../img/Pinna.jpg')] bg-cover bg-center py-4 md:py-1 justify-center h-[32rem]">
-        <div class="md:mt-0 mt-20">
+        <div class="md:mt-0 container mx-auto  mt-20">
             <div class="md:flex flex-col md:justify-start justify-center md:mx-20  md:mt-40 mx-28 md:text-left ">
                 <h1 class="text-orange-500 font-bold md:text-6xl tracking-wider md:mx-0 mx-10">
                     Know&nbsp;Before&nbsp;You&nbsp;Buy
@@ -57,7 +57,7 @@
 
             <div class="flex justify-center md:mt-20">
 
-                <div class="w-1/3 px-4 md:px-8 my-16">
+                <div class="md:w-2/3 w-1/3 px-4 md:px-8 my-16 md:justify-start">
                     <h1 class="text-3xl text-blue-900 font-bold 1/3">
                         Why do u need to check Japanese Import Cars History
                     </h1>
@@ -268,7 +268,7 @@
             </div>
         </div>
 
-        <div class="bg-[url('../img/homecar2.jpg')] w-full bg-cover bg-center">
+        <div class="bg-[url('../img/homecar2.jpg')] container bg-cover bg-center mx-auto">
             <div class="container mx-auto py-10 px-5">
                 <h1 class="text-blue-900 font-bold text-4xl text-center border-green-800">What our Community is Saying
                 </h1>
