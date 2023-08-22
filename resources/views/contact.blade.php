@@ -1,5 +1,7 @@
 @extends('layout.layout')
 @section('content')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 
 <div class="w-full relative">
     <img src="{{ asset('images/Siyama.jpg') }}" alt="" class="h-64 object-cover mx-auto w-full">

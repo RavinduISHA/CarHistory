@@ -23,17 +23,14 @@
                 <div class="md:w-5/12 md:mb-40 items-start text-center md:text-left">
                     <div class="md:w-12/12 w-full md:mt-20 mt-10 ">
                         <div class="relative w-full">
-                            <input type="text" id="search" name="search" placeholder="VIN or Chassis Number"
-                                class="w-full px-4 py-2 text-black bg-white rounded-md focus:outline-none focus:ring focus:border-blue-300" />
-                            <button type="button"
-                                class="absolute top-1/2 right-2 transform -translate-y-1/2 focus:outline-none bg-orange-500 text-white px-3 py-1 rounded">
+                            <input type="text" id="search" name="search" placeholder="VIN or Chassis Number" class="w-full px-4 py-2 text-black bg-white rounded-md focus:outline-none focus:ring focus:border-blue-300" />
+                            <button type="button" class="absolute top-1/2 right-2 transform -translate-y-1/2 focus:outline-none bg-orange-500 text-white px-3 py-1 rounded">
                                 Search
                             </button>
                         </div>
                     </div>
 
-                    <div
-                        class="flex gap-3 md:gap-5 md:mt-12 md:items-start items-center justify-center sm:justify-start">
+                    <div class="flex gap-3 md:gap-5 md:mt-12 md:items-start items-center justify-center sm:justify-start">
                         <img src="{{ asset('images/twitter.png') }}" alt="" class="w-5 h-5">
                         <img src="{{ asset('images/twitter.png') }}" alt="" class="w-5 h-5">
                         <img src="{{ asset('images/youtube.png') }}" alt="" class="w-5 h-5">
@@ -107,8 +104,7 @@
         <div class=" my-10 relative">
             <div class=" w-full ">
                 <img src="{{ URL('images/Group_93.png')}}" class="w-full">
-                <div
-                    class="absolute inset-0 md:flex flex-col justify-center items-start text-center text-white md:mt-20 md:pl-20">
+                <div class="absolute inset-0 md:flex flex-col justify-center items-start text-center text-white md:mt-20 md:pl-20">
                     <p class="md:text-4xl font-bold text-orange-600">Preserving the Legacy</p>
                     <p class="md:text-2xl  md:w-3/12 md:text-left ">Uncovering the Past of Japanese Cars through an In-depth Sample Report</p>
                     <button class=" md:text-md font-bold bg-orange-600 rounded-lg px-4 py-2 md:mt-5">GET REPORT</button>
@@ -118,11 +114,11 @@
 
         <div>
             <div class="md:flex w-11/12">
-                <div class="md:w-6/12 ">
+                <div class="md:w-6/12  md:-mb-20 z-10  md:px-20">
                     <img src="{{ URL('images/homecar.png')}}" alt="Your Image">
                 </div>
                 <div class="md:w-6/12">
-                    <p class="md:text-4xl text-blue-900 font-bold md:mt-60 md:text-left text-center ">Why We Are the Premier Choice for Car Import History Enthusiasts</p>
+                    <p class="md:text-4xl text-blue-900 font-bold md:mt-40 md:text-left text-center ">Why We Are the Premier Choice for Car Import History Enthusiasts</p>
                 </div>
             </div>
 
@@ -283,8 +279,7 @@
                     "pageDots": true,
                     "draggable": true
                 }'>
-                @for($i = 1; $i <= 4; $i++)
-                <div class="carousel-cell w-full h-full md:w-1/3 md:px-20 px-20">
+                    @for($i = 1; $i <= 4; $i++) <div class="carousel-cell w-full h-full md:w-1/3 md:px-20 px-20">
                         <div class="border-4 border-white rounded-3xl p-4 bg-black w-full mx-auto mt-10 py-10">
                             <img src="{{ URL('images/Group_94.png') }}" class="md:w-40 w-24 mx-auto -mt-20">
                             <p class="text-orange-600 font-bold md:text-2xl text-1x1  text-center">AdamMilner</p>

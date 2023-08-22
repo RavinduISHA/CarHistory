@@ -1,16 +1,17 @@
 @extends('layout.layout')
 @section('content')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 <div class="w-full relative">
-        <img src="{{ asset('images/Siyama.jpg') }}" alt="" class="h-64 object-cover mx-auto w-full">
-<div class="absolute inset-0 flex flex-col items-center justify-center">
-<h1 class="text-orange-500 font-bold md:text-6xl">Car Report</h1>
-<p class="text-white">Home  >  Car Report</p>
+    <img src="{{ asset('images/Siyama.jpg') }}" alt="" class="h-64 object-cover mx-auto w-full">
+    <div class="absolute inset-0 flex flex-col items-center justify-center">
+        <h1 class="text-orange-500 font-bold md:text-6xl">Car Report</h1>
+        <p class="text-white">Home > Car Report</p>
 
-
-</div>
 
     </div>
+
+</div>
 <div class="container mx-auto mt-4">
 
     <div class="border-2 border-blue-800  rounded-lg bg-gray-200 px-10 py-10">
@@ -46,47 +47,44 @@
                 <h1 class="text-white text-3xl text-center">Vehicle Information</h1>
             </div>
             <div>
-                <table class="w-full">
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Chassis Number</td>
+                <table class="w-full ">
+                    <tr class="even:bg-gray-300 odd:bg-white ">
+                        <td class="w-1/2 text-start md:px-4 md:py-4">Chassis Number</td>
                         <td class="w-1/2 text-start">: KJ10-25LKU785</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Manufacture Date</td>
+                        <td class="w-1/2 text-start md:px-4 md:py-4">Manufacture Date</td>
                         <td class="w-1/2 text-start">: 2009-06</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Make</td>
+                        <td class="w-1/2 text-start md:px-4 md:py-4">Make</td>
                         <td class="w-1/2 text-start">: Toyota</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Model</td>
+                        <td class="w-1/2 text-start md:px-4 md:py-4">Model</td>
                         <td class="w-1/2 text-start">: Prius</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Body</td>
+                        <td class="w-1/2 text-start md:px-4 md:py-4">Body</td>
                         <td class="w-1/2 text-start">: DBA-KJ10</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Grade</td>
+                        <td class="w-1/2 text-start md:px-4 md:py-4">Grade</td>
                         <td class="w-1/2 text-start">: 20G</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Engine</td>
+                        <td class="w-1/2 text-start md:px-4 md:py-4">Engine</td>
                         <td class="w-1/2 text-start">: MR20</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Drive</td>
+                        <td class="w-1/2 text-start md:px-4 md:py-4">Drive</td>
                         <td class="w-1/2 text-start">: 2WD</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">Transmission</td>
+                        <td class="w-1/2 text-start md:px-4 md:py-4">Transmission</td>
                         <td class="w-1/2 text-start">: Auto</td>
                     </tr>
-                    <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start">One</td>
-                        <td class="w-1/2 text-start">Two</td>
-                    </tr>
+
                 </table>
             </div>
         </div>
@@ -96,71 +94,71 @@
             <div class="bg-blue-950 py-5">
                 <h1 class="text-white text-3xl text-center">Vehicle History</h1>
             </div>
-            <div>
-                <table class="w-full px-5">
+            <div class="">
+                <table class="w-full px-5 ">
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/3 text-start">
+                        <td class="w-1/3 text-start md:py-4 md:px-4">
                             <span class="inline-block mr-2">
                                 <img src="images/car-key.png" class="w-5 h-5">
                             </span>Title information
                         </td>
                         <td class="w-1/3 text-start">Deregistered to Export</td>
-                        <td class="flex w-full text-start justify-end">
-                            <img src="images/checked.png" class="w-5 h-5">
+                        <td class="flex w-full text-start justify-end md:px-4 md:py-4">
+                            <img src="images/checked.png" class="w-5 h-5 ">
                         </td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/3 text-start">
+                        <td class="w-1/3 text-start md:py-4 md:px-4">
                             <span class="inline-block mr-2">
                                 <img src="images/car-repair.png" class="w-5 h-5">
                             </span>Title information
                         </td>
                         <td class="w-1/3 text-start">No Problem</td>
-                        <td class="flex w-full text-start justify-end">
+                        <td class="flex w-full text-start justify-end md:px-4 md:py-4">
                             <img src="images/cancel.png" class="w-5 h-5">
                         </td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/3 text-start">
+                        <td class="w-1/3 text-start md:px-4 md:py-4">
                             <span class="inline-block mr-2">
                                 <img src="images/speedomete.png" class="w-5 h-5">
                             </span>Title information
                         </td>
                         <td class="w-1/3 text-start">Deregistered to Export</td>
-                        <td class="flex w-full text-start justify-end">
+                        <td class="flex w-full text-start justify-end md:px-4 md:py-4">
                             <img src="images/checked.png" class="w-5 h-5">
                         </td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/3 text-start">
+                        <td class="w-1/3 text-start md:px-4 md:py-4">
                             <span class="inline-block mr-2">
                                 <img src="images/settings.png" class="w-5 h-5">
                             </span>Title information
                         </td>
                         <td class="w-1/3 text-start">No Problem</td>
-                        <td class="flex w-full text-start justify-end">
+                        <td class="flex w-full text-start justify-end md:px-4 md:py-4">
                             <img src="images/cancel.png" class="w-5 h-5">
                         </td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/3 text-start">
+                        <td class="w-1/3 text-start md:px-4 md:py-4">
                             <span class="inline-block mr-2">
                                 <img src="images/shiel.png" class="w-5 h-5">
                             </span>Title information
                         </td>
                         <td class="w-1/3 text-start">Deregistered to Export</td>
-                        <td class="flex w-full text-start justify-end">
+                        <td class="flex w-full text-start justify-end md:px-4 md:py-4">
                             <img src="images/checked.png" class="w-5 h-5">
                         </td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/3 text-start">
+                        <td class="w-1/3 text-start md:px-4 md:py-4">
                             <span class="inline-block mr-2">
                                 <img src="images/exclamation-mark.png" class="w-5 h-5">
                             </span>Title information
                         </td>
                         <td class="w-1/3 text-start">No Problem</td>
-                        <td class="flex w-full text-start justify-end">
+                        <td class="flex w-full text-start justify-end md:px-4 md:py-4">
                             <img src="images/cancel.png" class="w-5 h-5">
                         </td>
                     </tr>
@@ -168,8 +166,8 @@
 
 
                 </table>
-                <div class=" flex justify-center mt-5">
-                    <button class="w-10/12 border-3 bg-blue-950 text-white font-semibold p-5 rounded-lg justify-center items-center ">Download Report</button>
+                <div class=" flex justify-center mt-5 w-full md:mt-20">
+                    <button class="w-full border-3 bg-blue-950 text-white font-semibold p-5 rounded-lg justify-center items-center text-3xl">Download Report</button>
                 </div>
             </div>
         </div>
@@ -236,16 +234,16 @@
         <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
             <div class="border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <table class="w-full">
-                    <tr class="border-b-8 border-white bg-white">
-                        <td>Problem type</td>
+                    <tr class="border-b-8 border-white bg-white  ">
+                        <td class="md:px-5">Problem type</td>
                         <td>Reported</td>
                         <td>Date Reported</td>
                         <td>Data Source</td>
                         <td>Details</td>
                         <td>Airbag</td>
                     </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>-----</td>
+                    <tr class="border-b-8 border-white bg-slate-200">
+                        <td class="px-5">-----</td>
                         <td>
                             <div class="flex">
                                 <div class="flex items-center">
@@ -259,8 +257,8 @@
                         <td>Repaired</td>
                         <td>OK</td>
                     </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>Malfuction</td>
+                    <tr class="border-b-8 border-white bg-slate-200">
+                        <td class="md:px-5">Malfuction</td>
                         <td>
                             <div class="flex">
                                 <div class="flex items-center">
@@ -274,14 +272,14 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>Malfuction</td>
+                    <tr class="border-b-8 border-white bg-slate-200">
+                        <td class="md:px-5">Malfuction</td>
                         <td>
                             <div class="flex">
                                 <div class="flex items-center">
                                     <img src="{{ URL('images/checked.png')}}" class="w-5 h-5" alt="" srcset="">
                                 </div>
-                                <h1>&nbsp Reported</h1>
+                                <h1>&nbsp Not Reported</h1>
                             </div>
                         </td>
                         <td></td>
@@ -289,14 +287,14 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>Malfuction</td>
+                    <tr class="border-b-8 border-white bg-slate-200">
+                        <td class="md:px-5">Malfuction</td>
                         <td>
                             <div class="flex">
                                 <div class="flex items-center">
                                     <img src="{{ URL('images/checked.png')}}" class="w-5 h-5" alt="" srcset="">
                                 </div>
-                                <h1>&nbsp Reported</h1>
+                                <h1>&nbsp Not Reported</h1>
                             </div>
                         </td>
                         <td></td>
@@ -304,14 +302,14 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>Malfuction</td>
+                    <tr class="border-b-8 border-white bg-slate-200">
+                        <td class="md:px-5">Malfuction</td>
                         <td>
                             <div class="flex">
                                 <div class="flex items-center">
                                     <img src="{{ URL('images/checked.png')}}" class="w-5 h-5" alt="" srcset="">
                                 </div>
-                                <h1>&nbsp Reported</h1>
+                                <h1>&nbsp Not Reported</h1>
                             </div>
                         </td>
                         <td></td>
@@ -319,14 +317,14 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>Malfuction</td>
+                    <tr class="border-b-8 border-white bg-slate-200">
+                        <td class="md:px-5">Malfuction</td>
                         <td>
                             <div class="flex">
                                 <div class="flex items-center">
                                     <img src="{{ URL('images/checked.png')}}" class="w-5 h-5" alt="" srcset="">
                                 </div>
-                                <h1>&nbsp Reported</h1>
+                                <h1>&nbsp Not Reported</h1>
                             </div>
                         </td>
                         <td></td>
@@ -483,14 +481,14 @@
                     <div class="mt-5">
                         <table class="w-full border border-white rounded">
                             <tr class="bg-white">
-                                <th class="p-2">Points</th>
-                                <th class="p-2">Evaluation</th>
+                                <th class="">Points</th>
+                                <th class="">Evaluation</th>
                                 <th class="p-2">Goal Average</th>
                             </tr>
-                            <tr class="bg-gray-300">
-                                <td class="p-2">32.04</td>
-                                <td class="p-2">
-                                    <div class="flex">
+                            <tr class="bg-gray-300 ">
+                                <td class="text-center">32.04</td>
+                                <td>
+                                    <div class="flex  justify-center">
                                         <span class="text-gray-500">&#9733;</span>
                                         <span class="text-gray-500">&#9733;</span>
                                         <span class="text-gray-500">&#9733;</span>
@@ -498,7 +496,7 @@
                                         <span class="text-gray-500">&#9733;</span>
                                     </div>
                                 </td>
-                                <td class="p-2">89%</td>
+                                <td class="p-2 justify-center text-center">89%</td>
                             </tr>
                         </table>
                     </div>
@@ -516,9 +514,9 @@
                                 <th class="p-2">Goal Average</th>
                             </tr>
                             <tr class="bg-gray-300">
-                                <td class="p-2">21.61</td>
+                                <td class="p-2 text-center">21.61</td>
                                 <td class="p-2">
-                                    <div class="flex">
+                                    <div class="flex justify-center">
                                         <span class="text-gray-500">&#9733;</span>
                                         <span class="text-gray-500">&#9733;</span>
                                         <span class="text-gray-500">&#9733;</span>
@@ -526,7 +524,7 @@
                                         <span class="text-gray-500">&#9733;</span>
                                     </div>
                                 </td>
-                                <td class="p-2">90%</td>
+                                <td class="p-2 text-center">90%</td>
                             </tr>
                         </table>
                     </div>
