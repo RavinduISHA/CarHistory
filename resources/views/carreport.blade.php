@@ -18,17 +18,17 @@
         <div class="flex flex-col md:flex-row">
             <div class="md:w-6/12 px-5">
                 <div>
-                    <h1 class="text-black w-full md:w-4/12 mb-2 md:mb-0">CHECK CAR HISTORY NOW! Use a FREE vehicle search</h1>
+                    <h1 class="text-black w-full md:w-4/12 mb-2 md:mb-0 text-blue-950">CHECK CAR HISTORY NOW! Use a FREE vehicle search</h1>
                 </div>
                 <h1 class="text-black w-full md:w-10/12 mt-5">Uncover the complete background of any vehicle instantly. Access valuable information on accidents, ownership, title status, and more. Make informed decisions with confidence and peace of mind.</h1>
             </div>
             <div class="md:mt-5 md:w-6/12 w-full">
                 <div class="container mx-auto">
                     <div class="mb-6">
-                        <input type="text" id="cheeseNumber" class="w-full border border-white rounded-lg px-3 py-2 text-black placeholder-black" placeholder="Enter Cheese Number">
+                        <input type="text" id="cheeseNumber" class="w-full border border-white rounded-lg px-3 py-2 text-black placeholder-blue-950" placeholder="Enter Chassis Number">
                     </div>
                     <div>
-                        <button class="text-white border font-bold bg-blue-950 rounded-lg px-6 py-2 w-full">Find your Vehicle</button>
+                        <button class="text-white border font-bold bg-blue-950 rounded-lg px-6 py-4 w-full">Find your Vehicle</button>
                     </div>
                 </div>
             </div>
@@ -179,24 +179,24 @@
 
         <div class="flex ">
 
-            <div class="w-6/12">
+            <div class="w-7/12">
                 <div>
-                    <h1 class="text-2xl">This vehicle does not qualify for Buyback Guarantee</h1>
+                    <h1 class="text-4xl text-blue-950">This vehicle does not qualify for Buyback Guarantee</h1>
                 </div>
-                <div class="flex">
+                <div class="flex md:mt-5">
                     <img src="{{ URL('images/cross.png')}}" alt="Your Image" class="md:w-20 w-10 md:h-20 h-10">
-                    <h1 class="w-8/12 ml-2 mt-3">Unfortunately, this vehicle does not qualify for our
+                    <h1 class="w-6/12 ml-2 mt-3">Unfortunately, this vehicle does not qualify for our
                         Buyback Guarantee Program.</h1>
                 </div>
             </div>
 
-            <div>
+            <div class="w-5/12 text-center">
                 <div>
-                    <h1 class="text-2xl">Average Market Price</h1>
+                    <h1 class="text-2xl text-blue-950">Average Market Price</h1>
                 </div>
-                <div class="flex">
+                <div class="flex justify-center md:mt-5">
                     <img src="{{ URL('images/dollar-symbol.png')}}" alt="Your Image" class="md:w-20 w-10 md:h-20 h-10">
-                    <h1 class="w-3/12 ml-2 text-4xl text-gray-600 mt-3">95,000</h1>
+                    <h1 class="  ml-2 text-4xl text-gray-600 mt-3 ">95,000</h1>
                 </div>
             </div>
 
@@ -347,7 +347,7 @@
         </h2>
         <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-1">
             <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                Hello Hello
+                ODO METER READING HISTORY
             </div>
         </div>
 
@@ -363,7 +363,7 @@
         </h2>
         <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-1">
             <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                Hello Hello
+                USE HISOTORY
             </div>
         </div>
 
@@ -382,49 +382,49 @@
             <div class="border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <table class="w-full">
                     <tr class="border-b-8 border-white bg-white">
-                        <td>Event Date</td>
+                        <td class="pl-5">Event Date</td>
                         <td>Location</td>
                         <td>ODO Reading (km)</td>
                         <td>Data Source</td>
                         <td>Details</td>
                     </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>2009-06</td>
+                    <tr class="border-b-8 border-white bg-slate-200">
+                        <td class="pl-5">2009-06</td>
                         <td></td>
                         <td></td>
                         <td>Nissan</td>
                         <td>Manufactured</td>
                     </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>2009-06</td>
+                    <tr class="border-b-8 border-white bg-slate-200">
+                        <td class="pl-5">2009-06</td>
                         <td></td>
                         <td></td>
                         <td>MLIT</td>
                         <td>First Registration</td>
                     </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>2012-06-08</td>
+                    <tr class="border-b-8 border-white bg-slate-200">
+                        <td class="pl-5">2012-06-08</td>
                         <td></td>
                         <td>22900</td>
                         <td>MLIT</td>
                         <td>First Registration</td>
                     </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>2012-06-08</td>
+                    <tr class="border-b-8 border-white bg-slate-200">
+                        <td class="pl-5">2012-06-08</td>
                         <td></td>
                         <td>35100</td>
                         <td>MLIT</td>
                         <td>First Registration</td>
                     </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>2014-07-09</td>
+                    <tr class="border-b-8 border-white bg-slate-200">
+                        <td class="pl-5">2014-07-09</td>
                         <td>Tama</td>
                         <td></td>
                         <td>MLIT</td>
                         <td>First Registration</td>
                     </tr>
-                    <tr class="border-b-8 border-white bg-slate-400">
-                        <td>2012-06-08</td>
+                    <tr class="border-b-8 border-white bg-slate-200">
+                        <td class="pl-5">2012-06-08</td>
                         <td>China</td>
                         <td>44100</td>
                         <td>USS Tokyo</td>
@@ -449,7 +449,7 @@
         </h2>
         <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-1">
             <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                Hello Hello
+                MANUFACTURER RECALL HISTORY
             </div>
         </div>
 
@@ -466,13 +466,13 @@
         <div id="accordion-collapse-body-6" class="hidden" aria-labelledby="accordion-collapse-heading-1">
 
             <div class="mt-10">
-                <h1 class="text-center text-blue-950 text-2xl">
+                <h1 class="text-center text-blue-950 text-2xl font-bold ">
                     Overall Collision Safety Ratings
                 </h1>
             </div>
 
 
-            <div class="flex flex-col md:flex-row w-full justify-center p-4 md:p-8">
+            <div class="flex flex-col md:flex-row w-full justify-center p-4 md:p-8 md:mt-20">
 
                 <div class="w-full md:w-6/12 mb-8 md:mb-0">
                     <div class="text-center text-lg font-semibold">
@@ -483,8 +483,10 @@
                             <tr class="bg-white">
                                 <th class="">Points</th>
                                 <th class="">Evaluation</th>
-                                <th class="p-2">Goal Average</th>
+                                <th class="p-2 ">Goal Average</th>
                             </tr>
+
+
                             <tr class="bg-gray-300 ">
                                 <td class="text-center">32.04</td>
                                 <td>
@@ -496,7 +498,11 @@
                                         <span class="text-gray-500">&#9733;</span>
                                     </div>
                                 </td>
-                                <td class="p-2 justify-center text-center">89%</td>
+
+                                <td class="p-2 justify-center text-center relative">
+                                    89%
+                                    <div class="absolute bg-gray-600 border-2 h-40 w-px right-0 bottom-0 md:-mx-1"></div>
+                                </td>
                             </tr>
                         </table>
                     </div>
@@ -542,13 +548,13 @@
                 </p>
             </div>
 
-            <div class="text-center text-blue-950 text-2xl  mt-5">Breaking Performance Tests</div>
+            <div class="text-center text-blue-950 text-2xl  mt-5 font-bold">Breaking Performance Tests</div>
             <div class="md:flex justify-center gap-40 mt-5">
 
 
                 <div class="flex justify-center">
                     <div class="mx-auto">
-                        <div class="rounded-full border-4 border-blue-950 h-40 w-40 grid place-items-center">
+                        <div class="rounded-full border-8 border-blue-950 h-40 w-40 grid place-items-center">
                             <div class="text-gray-500 text-lg">41.6 m</div>
                         </div>
                         <p class="text-center mt-2">Dry Road</p>
@@ -557,7 +563,7 @@
 
                 <div class="flex justify-center">
                     <div class="mx-auto">
-                        <div class="rounded-full border-4 border-blue-950 grid h-40 w-40 place-items-center">
+                        <div class="rounded-full border-8 border-blue-950 grid h-40 w-40 place-items-center">
                             <div class="text-gray-500">41.8 m</div>
                         </div>
                         <p class="text-center">Wet Road</p>
@@ -572,7 +578,7 @@
 
         <!-- ACCORDION 7-->
         <h2 id="accordion-collapse-heading-7">
-            <button type="button" data-accordion-target="#accordion-collapse-body-7" aria-expanded="true" aria-controls="accordion-collapse-body-7" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950">
+            <button type="button" data-accordion-target="#accordion-collapse-body-7" aria-expanded="true" aria-controls="accordion-collapse-body-7" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950 mb-5">
                 <span>VEHICLE SPECIFICATION</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
@@ -597,9 +603,9 @@
                             <img class="h-auto max-w-full rounded-lg" src="{{ URL('images/4-Best-Used-Toyota-Prius-Models-Under-₦5-Million.png')}}" alt="">
                         </div>
                     </div>
-                    <div class="grid gap-4">
+                    <div class="grid gap-4 mb-5">
                         <div>
-                            <img class="h-auto max-w-full rounded-lg" src="{{ URL('images/2.png')}}" alt="">
+                            <img class="h-auto max-w-full rounded-lg mb-5" src="{{ URL('images/2.png')}}" alt="">
                         </div>
                         <div>
                             <img class="h-auto max-w-full rounded-lg" src="{{ URL('images/2023-toyota-prius_100869030.png')}}" alt="">

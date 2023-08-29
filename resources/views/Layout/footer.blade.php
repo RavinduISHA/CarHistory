@@ -15,7 +15,7 @@
                 <div class="flex relative pb-0">
                     <input type="text" id="search" name="search" placeholder="VIN or Chassis Number" class="w-full px-4 py-2 text-black bg-white rounded-md focus:outline-none focus:ring focus:border-blue-300" />
                     <div class="bg-orange-500 rounded-md p-2 w-14 h-8 relative -left-14 top-1.5">
-                    <img src="{{ URL('images/search-interface-symbol.png') }}" class="w-5 relative left-1.5">
+                        <img src="{{ URL('images/search-interface-symbol.png') }}" class="w-5 relative left-1.5">
                     </div>
                 </div>
             </div>
