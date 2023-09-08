@@ -2,10 +2,10 @@
 @section('content')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-<div class="w-full relative">
-    <img src="{{ asset('images/Siyama.jpg') }}" alt="" class="h-64 object-cover mx-auto w-full">
+<div class="relative w-full">
+    <img src="{{ asset('images/Siyama.jpg') }}" alt="" class="object-cover w-full h-64 mx-auto">
     <div class="absolute inset-0 flex flex-col items-center justify-center">
-        <h1 class="text-orange-500 font-bold md:text-6xl">Car Report</h1>
+        <h1 class="font-bold text-orange-500 md:text-6xl">Car Report</h1>
         <p class="text-white">Home > Car Report</p>
 
 
@@ -14,21 +14,21 @@
 </div>
 <div class="container mx-auto mt-4">
 
-    <div class="border-2 border-blue-800  rounded-lg bg-gray-200 px-10 py-10">
+    <div class="px-10 py-10 bg-gray-200 border-2 border-blue-800 rounded-lg">
         <div class="flex flex-col md:flex-row">
-            <div class="md:w-6/12 px-5">
+            <div class="px-5 md:w-6/12">
                 <div>
-                    <h1 class="text-black w-full md:w-4/12 mb-2 md:mb-0 text-blue-950">CHECK CAR HISTORY NOW! Use a FREE vehicle search</h1>
+                    <h1 class="w-full mb-2 md:w-4/12 md:mb-0 text-blue-950">CHECK CAR HISTORY NOW! Use a FREE vehicle search</h1>
                 </div>
-                <h1 class="text-black w-full md:w-10/12 mt-5">Uncover the complete background of any vehicle instantly. Access valuable information on accidents, ownership, title status, and more. Make informed decisions with confidence and peace of mind.</h1>
+                <h1 class="w-full mt-5 text-black md:w-10/12">Uncover the complete background of any vehicle instantly. Access valuable information on accidents, ownership, title status, and more. Make informed decisions with confidence and peace of mind.</h1>
             </div>
-            <div class="md:mt-5 md:w-6/12 w-full">
+            <div class="w-full md:mt-5 md:w-6/12">
                 <div class="container mx-auto">
                     <div class="mb-6">
-                        <input type="text" id="cheeseNumber" class="w-full border border-white rounded-lg px-3 py-2 text-black placeholder-blue-950" placeholder="Enter Chassis Number">
+                        <input type="text" id="cheeseNumber" class="w-full px-3 py-2 text-black border border-white rounded-lg placeholder-blue-950" placeholder="Enter Chassis Number">
                     </div>
                     <div>
-                        <button class="text-white border font-bold bg-blue-950 rounded-lg px-6 py-4 w-full">Find your Vehicle</button>
+                        <button class="w-full px-6 py-4 font-bold text-white border rounded-lg bg-blue-950">Find your Vehicle</button>
                     </div>
                 </div>
             </div>
@@ -39,12 +39,12 @@
     <!--Table Row-->
 
 
-    <div class="md:flex w-full justify-between gap-10 mt-5">
+    <div class="justify-between w-full gap-10 mt-5 md:flex">
 
 
-        <div class="border-2 rounded-lg w-full ">
-            <div class="bg-blue-950 py-5">
-                <h1 class="text-white text-3xl text-center">Vehicle Information</h1>
+        <div class="w-full border-2 rounded-lg ">
+            <div class="py-5 bg-blue-950">
+                <h1 class="text-3xl text-center text-white">Vehicle Information</h1>
             </div>
             <div>
                 <table class="w-full ">
@@ -90,9 +90,9 @@
         </div>
 
 
-        <div class="border-2 rounded-lg w-full ">
-            <div class="bg-blue-950 py-5">
-                <h1 class="text-white text-3xl text-center">Vehicle History</h1>
+        <div class="w-full border-2 rounded-lg ">
+            <div class="py-5 bg-blue-950">
+                <h1 class="text-3xl text-center text-white">Vehicle History</h1>
             </div>
             <div class="">
                 <table class="w-full px-5 ">
@@ -103,7 +103,7 @@
                             </span>Title information
                         </td>
                         <td class="w-1/3 text-start">Deregistered to Export</td>
-                        <td class="flex w-full text-start justify-end md:px-4 md:py-4">
+                        <td class="flex justify-end w-full text-start md:px-4 md:py-4">
                             <img src="images/checked.png" class="w-5 h-5 ">
                         </td>
                     </tr>
@@ -114,7 +114,7 @@
                             </span>Title information
                         </td>
                         <td class="w-1/3 text-start">No Problem</td>
-                        <td class="flex w-full text-start justify-end md:px-4 md:py-4">
+                        <td class="flex justify-end w-full text-start md:px-4 md:py-4">
                             <img src="images/cancel.png" class="w-5 h-5">
                         </td>
                     </tr>
@@ -125,7 +125,7 @@
                             </span>Title information
                         </td>
                         <td class="w-1/3 text-start">Deregistered to Export</td>
-                        <td class="flex w-full text-start justify-end md:px-4 md:py-4">
+                        <td class="flex justify-end w-full text-start md:px-4 md:py-4">
                             <img src="images/checked.png" class="w-5 h-5">
                         </td>
                     </tr>
@@ -136,7 +136,7 @@
                             </span>Title information
                         </td>
                         <td class="w-1/3 text-start">No Problem</td>
-                        <td class="flex w-full text-start justify-end md:px-4 md:py-4">
+                        <td class="flex justify-end w-full text-start md:px-4 md:py-4">
                             <img src="images/cancel.png" class="w-5 h-5">
                         </td>
                     </tr>
@@ -147,7 +147,7 @@
                             </span>Title information
                         </td>
                         <td class="w-1/3 text-start">Deregistered to Export</td>
-                        <td class="flex w-full text-start justify-end md:px-4 md:py-4">
+                        <td class="flex justify-end w-full text-start md:px-4 md:py-4">
                             <img src="images/checked.png" class="w-5 h-5">
                         </td>
                     </tr>
@@ -158,7 +158,7 @@
                             </span>Title information
                         </td>
                         <td class="w-1/3 text-start">No Problem</td>
-                        <td class="flex w-full text-start justify-end md:px-4 md:py-4">
+                        <td class="flex justify-end w-full text-start md:px-4 md:py-4">
                             <img src="images/cancel.png" class="w-5 h-5">
                         </td>
                     </tr>
@@ -166,16 +166,16 @@
 
 
                 </table>
-                <div class=" flex justify-center mt-5 w-full md:mt-20">
-                    <button class="w-full border-3 bg-blue-950 text-white font-semibold p-5 rounded-lg justify-center items-center text-3xl">Download Report</button>
+                <div class="flex justify-center w-full mt-5 md:mt-20">
+                    <button class="items-center justify-center w-full p-5 text-3xl font-semibold text-white rounded-lg border-3 bg-blue-950">Download Report</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class=" flex items-center justify-center">
-    <div class="border-2 border-blue-800 rounded-lg bg-gray-200 px-10 py-10 mt-10  items-center justify-center container w-full">
+<div class="flex items-center justify-center ">
+    <div class="container items-center justify-center w-full px-10 py-10 mt-10 bg-gray-200 border-2 border-blue-800 rounded-lg">
 
         <div class="flex ">
 
@@ -184,8 +184,8 @@
                     <h1 class="text-4xl text-blue-950">This vehicle does not qualify for Buyback Guarantee</h1>
                 </div>
                 <div class="flex md:mt-5">
-                    <img src="{{ URL('images/cross.png')}}" alt="Your Image" class="md:w-20 w-10 md:h-20 h-10">
-                    <h1 class="w-6/12 ml-2 mt-3">Unfortunately, this vehicle does not qualify for our
+                    <img src="{{ URL('images/cross.png')}}" alt="Your Image" class="w-10 h-10 md:w-20 md:h-20">
+                    <h1 class="w-full mt-3 ml-2 md:w-6/12">Unfortunately, this vehicle does not qualify for our
                         Buyback Guarantee Program.</h1>
                 </div>
             </div>
@@ -195,8 +195,8 @@
                     <h1 class="text-2xl text-blue-950">Average Market Price</h1>
                 </div>
                 <div class="flex justify-center md:mt-5">
-                    <img src="{{ URL('images/dollar-symbol.png')}}" alt="Your Image" class="md:w-20 w-10 md:h-20 h-10">
-                    <h1 class="  ml-2 text-4xl text-gray-600 mt-3 ">95,000</h1>
+                    <img src="{{ URL('images/dollar-symbol.png')}}" alt="Your Image" class="w-10 h-10 md:w-20 md:h-20">
+                    <h1 class="mt-3 ml-2 text-4xl text-gray-600 ">95,000</h1>
                 </div>
             </div>
 
@@ -218,7 +218,7 @@
 
         <!-- ACCORDION 2-->
         <h2 id="accordion-collapse-heading-1">
-            <button type="button" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950">
+            <button type="button" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1" class="flex items-center justify-between w-full p-5 mt-3 font-medium text-left text-white bg-blue-900 rounded-t-xl hover:bg-blue-950 focus:bg-blue-950">
                 <span>ACCIDENT / REPAIR HISTORY</span>
 
 
@@ -226,7 +226,7 @@
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
                 </svg>
 
-                <!-- <svg data-accordion-icon class="w-3 h-3 rotate-0 shrink-0 mb-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 2">
+                <!-- <svg data-accordion-icon class="w-3 h-3 mb-2 rotate-0 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 2">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h8M5 -2v10" />
                 </svg> -->
             </button>
@@ -234,7 +234,7 @@
         <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
             <div class="border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <table class="w-full">
-                    <tr class="border-b-8 border-white bg-white  ">
+                    <tr class="bg-white border-b-8 border-white ">
                         <td class="md:px-5">Problem type</td>
                         <td>Reported</td>
                         <td>Date Reported</td>
@@ -338,7 +338,7 @@
 
         <!-- ACCORDION 2-->
         <h2 id="accordion-collapse-heading-2">
-            <button type="button" data-accordion-target="#accordion-collapse-body-2" aria-expanded="true" aria-controls="accordion-collapse-body-2" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950">
+            <button type="button" data-accordion-target="#accordion-collapse-body-2" aria-expanded="true" aria-controls="accordion-collapse-body-2" class="flex items-center justify-between w-full p-5 mt-3 font-medium text-left text-white bg-blue-900 rounded-t-xl hover:bg-blue-950 focus:bg-blue-950">
                 <span>ODO METER READING HISTORY</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
@@ -354,7 +354,7 @@
 
         <!-- ACCORDION 3-->
         <h2 id="accordion-collapse-heading-3">
-            <button type="button" data-accordion-target="#accordion-collapse-body-3" aria-expanded="true" aria-controls="accordion-collapse-body-3" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950">
+            <button type="button" data-accordion-target="#accordion-collapse-body-3" aria-expanded="true" aria-controls="accordion-collapse-body-3" class="flex items-center justify-between w-full p-5 mt-3 font-medium text-left text-white bg-blue-900 rounded-t-xl hover:bg-blue-950 focus:bg-blue-950">
                 <span>USE HISOTORY</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
@@ -370,7 +370,7 @@
 
         <!-- ACCORDION 4-->
         <h2 id="accordion-collapse-heading-4">
-            <button type="button" data-accordion-target="#accordion-collapse-body-4" aria-expanded="true" aria-controls="accordion-collapse-body-4" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950">
+            <button type="button" data-accordion-target="#accordion-collapse-body-4" aria-expanded="true" aria-controls="accordion-collapse-body-4" class="flex items-center justify-between w-full p-5 mt-3 font-medium text-left text-white bg-blue-900 rounded-t-xl hover:bg-blue-950 focus:bg-blue-950">
                 <span>ACCIDENT / REPAIR HISTORY</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
@@ -381,7 +381,7 @@
 
             <div class="border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <table class="w-full">
-                    <tr class="border-b-8 border-white bg-white">
+                    <tr class="bg-white border-b-8 border-white">
                         <td class="pl-5">Event Date</td>
                         <td>Location</td>
                         <td>ODO Reading (km)</td>
@@ -440,7 +440,7 @@
 
         <!-- ACCORDION 5-->
         <h2 id="accordion-collapse-heading-5">
-            <button type="button" data-accordion-target="#accordion-collapse-body-5" aria-expanded="true" aria-controls="accordion-collapse-body-5" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950">
+            <button type="button" data-accordion-target="#accordion-collapse-body-5" aria-expanded="true" aria-controls="accordion-collapse-body-5" class="flex items-center justify-between w-full p-5 mt-3 font-medium text-left text-white bg-blue-900 rounded-t-xl hover:bg-blue-950 focus:bg-blue-950">
                 <span>MANUFACTURER RECALL HISTORY</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
@@ -455,7 +455,7 @@
 
         <!-- ACCORDION 6-->
         <h2 id="accordion-collapse-heading-6">
-            <button type="button" data-accordion-target="#accordion-collapse-body-6" aria-expanded="true" aria-controls="accordion-collapse-body-6" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950">
+            <button type="button" data-accordion-target="#accordion-collapse-body-6" aria-expanded="true" aria-controls="accordion-collapse-body-6" class="flex items-center justify-between w-full p-5 mt-3 font-medium text-left text-white bg-blue-900 rounded-t-xl hover:bg-blue-950 focus:bg-blue-950">
                 <span>VEHICLE ASSESSMENT</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
@@ -466,16 +466,16 @@
         <div id="accordion-collapse-body-6" class="hidden" aria-labelledby="accordion-collapse-heading-1">
 
             <div class="mt-10">
-                <h1 class="text-center text-blue-950 text-2xl font-bold ">
+                <h1 class="text-2xl font-bold text-center text-blue-950 ">
                     Overall Collision Safety Ratings
                 </h1>
             </div>
 
 
-            <div class="flex flex-col md:flex-row w-full justify-center p-4 md:p-8 md:mt-20">
+            <div class="flex flex-col justify-center w-full p-4 md:flex-row md:p-8 md:mt-20">
 
-                <div class="w-full md:w-6/12 mb-8 md:mb-0">
-                    <div class="text-center text-lg font-semibold">
+                <div class="w-full mb-8 md:w-6/12 md:mb-0">
+                    <div class="text-lg font-semibold text-center">
                         Driver's Seat
                     </div>
                     <div class="mt-5">
@@ -490,7 +490,7 @@
                             <tr class="bg-gray-300 ">
                                 <td class="text-center">32.04</td>
                                 <td>
-                                    <div class="flex  justify-center">
+                                    <div class="flex justify-center">
                                         <span class="text-gray-500">&#9733;</span>
                                         <span class="text-gray-500">&#9733;</span>
                                         <span class="text-gray-500">&#9733;</span>
@@ -499,9 +499,9 @@
                                     </div>
                                 </td>
 
-                                <td class="p-2 justify-center text-center relative">
+                                <td class="relative justify-center p-2 text-center">
                                     89%
-                                    <div class="absolute bg-gray-600 border-2 h-40 w-px right-0 bottom-0 md:-mx-1"></div>
+                                    <div class="absolute bottom-0 right-0 w-px h-40 bg-gray-600 border-2 md:-mx-1"></div>
                                 </td>
                             </tr>
                         </table>
@@ -509,7 +509,7 @@
                 </div>
 
                 <div class="w-full md:w-6/12">
-                    <div class="text-center text-lg font-semibold">
+                    <div class="text-lg font-semibold text-center">
                         Front Passenger's Seat
                     </div>
                     <div class="mt-5">
@@ -538,7 +538,7 @@
 
             </div>
 
-            <div class="text-center text-gray-500 mt-5">
+            <div class="mt-5 text-center text-gray-500">
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -548,22 +548,22 @@
                 </p>
             </div>
 
-            <div class="text-center text-blue-950 text-2xl  mt-5 font-bold">Breaking Performance Tests</div>
-            <div class="md:flex justify-center gap-40 mt-5">
+            <div class="mt-5 text-2xl font-bold text-center text-blue-950">Breaking Performance Tests</div>
+            <div class="justify-center gap-40 mt-5 md:flex">
 
 
                 <div class="flex justify-center">
                     <div class="mx-auto">
-                        <div class="rounded-full border-8 border-blue-950 h-40 w-40 grid place-items-center">
-                            <div class="text-gray-500 text-lg">41.6 m</div>
+                        <div class="grid w-40 h-40 border-8 rounded-full border-blue-950 place-items-center">
+                            <div class="text-lg text-gray-500">41.6 m</div>
                         </div>
-                        <p class="text-center mt-2">Dry Road</p>
+                        <p class="mt-2 text-center">Dry Road</p>
                     </div>
                 </div>
 
                 <div class="flex justify-center">
                     <div class="mx-auto">
-                        <div class="rounded-full border-8 border-blue-950 grid h-40 w-40 place-items-center">
+                        <div class="grid w-40 h-40 border-8 rounded-full border-blue-950 place-items-center">
                             <div class="text-gray-500">41.8 m</div>
                         </div>
                         <p class="text-center">Wet Road</p>
@@ -578,7 +578,7 @@
 
         <!-- ACCORDION 7-->
         <h2 id="accordion-collapse-heading-7">
-            <button type="button" data-accordion-target="#accordion-collapse-body-7" aria-expanded="true" aria-controls="accordion-collapse-body-7" class="flex items-center justify-between w-full p-5 font-medium text-left rounded-t-xl mt-3 text-white bg-blue-900 hover:bg-blue-950 focus:bg-blue-950 mb-5">
+            <button type="button" data-accordion-target="#accordion-collapse-body-7" aria-expanded="true" aria-controls="accordion-collapse-body-7" class="flex items-center justify-between w-full p-5 mt-3 mb-5 font-medium text-left text-white bg-blue-900 rounded-t-xl hover:bg-blue-950 focus:bg-blue-950">
                 <span>VEHICLE SPECIFICATION</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
@@ -586,15 +586,15 @@
             </button>
         </h2>
         <div id="accordion-collapse-body-7" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-            <div class="flex flex-col justify-center space-y-2 mt-10">
+            <div class="flex flex-col justify-center mt-10 space-y-2">
                 <h1 class="text-center font-bold text-2xl text-[#29335C]">Auction Sheet</h1>
                 <div class="mt-14">
-                    <img src="{{ URL('images/Rectangle 176.png')}}" alt="" class="mx-auto w-2/6" srcset="">
+                    <img src="{{ URL('images/Rectangle 176.png')}}" alt="" class="w-2/6 mx-auto" srcset="">
                 </div>
             </div>
             <h1 class="text-center font-bold text-2xl text-[#29335C] mt-10">Photos</h1>
             <div class="flex items-center justify-center mt-14">
-                <div class="grid grid-cols-2 md:grid-cols-2 gap-4">
+                <div class="grid grid-cols-2 gap-4 md:grid-cols-2">
                     <div class="grid gap-4">
                         <div>
                             <img class="h-auto max-w-full rounded-lg" src="{{ URL('images/1.png')}}" alt="">
@@ -605,7 +605,7 @@
                     </div>
                     <div class="grid gap-4 mb-5">
                         <div>
-                            <img class="h-auto max-w-full rounded-lg mb-5" src="{{ URL('images/2.png')}}" alt="">
+                            <img class="h-auto max-w-full mb-5 rounded-lg" src="{{ URL('images/2.png')}}" alt="">
                         </div>
                         <div>
                             <img class="h-auto max-w-full rounded-lg" src="{{ URL('images/2023-toyota-prius_100869030.png')}}" alt="">
