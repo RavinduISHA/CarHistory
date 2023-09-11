@@ -24,7 +24,7 @@
             </div>
             <div class="w-full md:mt-5 md:w-6/12">
                 <div class="container mx-auto">
-                    <div class="mb-6">
+                    <div class="mt-2 mb-6 md:mt-0">
                         <input type="text" id="cheeseNumber" class="w-full px-3 py-2 text-black border border-white rounded-lg placeholder-blue-950" placeholder="Enter Chassis Number">
                     </div>
                     <div>
@@ -184,7 +184,7 @@
                     <h1 class="text-4xl text-blue-950">This vehicle does not qualify for Buyback Guarantee</h1>
                 </div>
                 <div class="flex md:mt-5">
-                    <img src="{{ URL('images/cross.png')}}" alt="Your Image" class="w-10 h-10 md:w-20 md:h-20">
+                    <img src="{{ URL('images/cross.png')}}" alt="Your Image" class="w-10 h-10 mt-3 md:w-20 md:h-20 md:mt-0">
                     <h1 class="w-full mt-3 ml-2 md:w-6/12">Unfortunately, this vehicle does not qualify for our
                         Buyback Guarantee Program.</h1>
                 </div>
@@ -195,7 +195,7 @@
                     <h1 class="text-2xl text-blue-950">Average Market Price</h1>
                 </div>
                 <div class="flex justify-center md:mt-5">
-                    <img src="{{ URL('images/dollar-symbol.png')}}" alt="Your Image" class="w-10 h-10 md:w-20 md:h-20">
+                    <img src="{{ URL('images/dollar-symbol.png')}}" alt="Your Image" class="w-10 h-10 mt-3 md:w-20 md:h-20 md:mt-0">
                     <h1 class="mt-3 ml-2 text-4xl text-gray-600 ">95,000</h1>
                 </div>
             </div>
@@ -235,19 +235,19 @@
             <div class="border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <table class="w-full">
                     <tr class="bg-white border-b-8 border-white ">
-                        <td class="md:px-5">Problem type</td>
-                        <td>Reported</td>
-                        <td>Date Reported</td>
-                        <td>Data Source</td>
-                        <td>Details</td>
-                        <td>Airbag</td>
+                        <td class="font-semibold md:px-5">Problem type</td>
+                        <td class="font-semibold">Reported</td>
+                        <td class="font-semibold">Date Reported</td>
+                        <td class="font-semibold">Data Source</td>
+                        <td class="font-semibold">Details</td>
+                        <td class="font-semibold">Airbag</td>
                     </tr>
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="px-5">-----</td>
                         <td>
                             <div class="flex">
                                 <div class="flex items-center">
-                                    <img src="{{ URL('images/cancel.png')}}" class="w-5 h-5" alt="" srcset="">
+                                    <img src="{{ URL('images/cancel.png')}}" class="w-5 h-5 mt-4 md:mt-0" alt="" srcset="">
                                 </div>
                                 <h1>&nbsp Rejected</h1>
                             </div>
@@ -255,7 +255,7 @@
                         <td>2023-02-15</td>
                         <td>USS Tokyo</td>
                         <td>Repaired</td>
-                        <td>OK</td>
+                        <td class="pl-5">OK</td>
                     </tr>
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="md:px-5">Malfuction</td>
@@ -264,13 +264,13 @@
                                 <div class="flex items-center">
                                     <!-- <img src="" class="w-5 h-5" alt="" srcset=""> -->
                                 </div>
-                                <h1>-------</h1>
+                                <h1 class="pl-5">-------</h1>
                             </div>
                         </td>
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td class="pl-5"></td>
                     </tr>
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="md:px-5">Malfuction</td>
@@ -285,7 +285,7 @@
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td class="pl-5"></td>
                     </tr>
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="md:px-5">Malfuction</td>
@@ -300,7 +300,7 @@
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td class="pl-5"></td>
                     </tr>
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="md:px-5">Malfuction</td>
@@ -315,7 +315,7 @@
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td class="pl-5"></td>
                     </tr>
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="md:px-5">Malfuction</td>
@@ -330,7 +330,7 @@
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <td class="pl-5">OK</td>
                     </tr>
                 </table>
             </div>
@@ -382,53 +382,53 @@
             <div class="border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <table class="w-full">
                     <tr class="bg-white border-b-8 border-white">
-                        <td class="pl-5">Event Date</td>
-                        <td>Location</td>
-                        <td>ODO Reading (km)</td>
-                        <td>Data Source</td>
-                        <td>Details</td>
+                        <td class="pl-5 font-semibold">Event Date</td>
+                        <td class="pl-5 font-semibold">Location</td>
+                        <td class="pl-5 font-semibold">ODO Reading (km)</td>
+                        <td class="pl-5 font-semibold">Data Source</td>
+                        <td class="pl-5 font-semibold">Details</td>
                     </tr>
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="pl-5">2009-06</td>
                         <td></td>
                         <td></td>
-                        <td>Nissan</td>
-                        <td>Manufactured</td>
+                        <td class="pl-5">Nissan</td>
+                        <td class="pl-5">Manufactured</td>
                     </tr>
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="pl-5">2009-06</td>
                         <td></td>
                         <td></td>
-                        <td>MLIT</td>
-                        <td>First Registration</td>
+                        <td class="pl-5">MLIT</td>
+                        <td class="pl-5">First Registration</td>
                     </tr>
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="pl-5">2012-06-08</td>
                         <td></td>
-                        <td>22900</td>
-                        <td>MLIT</td>
-                        <td>First Registration</td>
+                        <td class="pl-5">22900</td>
+                        <td class="pl-5">MLIT</td>
+                        <td class="pl-5">First Registration</td>
                     </tr>
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="pl-5">2012-06-08</td>
                         <td></td>
-                        <td>35100</td>
-                        <td>MLIT</td>
-                        <td>First Registration</td>
+                        <td class="pl-5">35100</td>
+                        <td class="pl-5">MLIT</td>
+                        <td class="pl-5">First Registration</td>
                     </tr>
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="pl-5">2014-07-09</td>
-                        <td>Tama</td>
+                        <td class="pl-5">Tama</td>
                         <td></td>
-                        <td>MLIT</td>
-                        <td>First Registration</td>
+                        <td class="pl-5">MLIT</td>
+                        <td class="pl-5">First Registration</td>
                     </tr>
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="pl-5">2012-06-08</td>
-                        <td>China</td>
-                        <td>44100</td>
-                        <td>USS Tokyo</td>
-                        <td>Autioned</td>
+                        <td class="pl-5">China</td>
+                        <td class="pl-5">44100</td>
+                        <td class="pl-5">USS Tokyo</td>
+                        <td class="pl-5">Autioned</td>
                     </tr>
                 </table>
             </div>

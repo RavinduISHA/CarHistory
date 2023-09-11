@@ -62,28 +62,28 @@
     <!-- form -->
 
     <div class="flex justify-center w-full">
-        <div class="w-3/4 text-start">
+        <div class="w-1/2 text-start">
             <h5 class="mx-2 text-blue-850">Your Name</h5>
             <input type="text" class="w-full p-2 mt-2 text-gray-500 border border-gray-300 rounded-lg" placeholder="Enter your name">
         </div>
     </div>
     
     <div class="flex justify-center w-full">
-        <div class="w-3/4 text-start">
+        <div class="w-1/2 text-start">
             <h5 class="mx-2 text-blue-850">Your Name</h5>
             <input type="text" class="w-full p-2 mt-2 text-gray-500 border border-gray-300 rounded-lg" placeholder="Enter your name here">
         </div>
     </div>
 
     <div class="flex justify-center w-full">
-        <div class="w-3/4 text-start">
+        <div class="w-1/2 text-start">
             <h5 class="mx-2 text-blue-850">Your Email</h5>
             <input type="text" class="w-full p-2 mt-2 text-gray-500 border border-gray-300 rounded-lg" placeholder="Enter your Email here">
         </div>
     </div>
 
     <div class="flex justify-center w-full">
-        <div class="w-3/4 text-start">
+        <div class="w-1/2 text-start">
             <h5 class="mx-2 text-blue-850">Subject</h5>
             <input type="text" class="w-full p-2 mt-2 text-gray-500 border border-gray-300 rounded-lg" placeholder="Enter Subject here">
         </div>
@@ -91,7 +91,7 @@
 
 
     <div class="flex justify-center w-full">
-        <div class="w-3/4 text-start">
+        <div class="w-1/2 text-start">
             <h5 class="mx-2 text-blue-850">Message</h5>
             <input type="text" class="w-full p-2 mt-2 text-gray-500 border border-gray-300 rounded-lg" placeholder="Enter your Message">
         </div>

@@ -13,7 +13,7 @@
                 <h1 class="font-bold tracking-wider text-orange-500 md:text-6xl md:mx-0">
                     Know&nbsp;Before&nbsp;You&nbsp;Buy
                 </h1>
-                <p class="w-full mx-5 mt-3 text-white md:text-2xl md:w-6/12 md:mt-5 md:mx-0">
+                <p class="w-full mx-3 mt-3 text-white md:text-2xl md:w-6/12 md:mt-5 md:mx-0">
                     Your go-to resource for comprehensive vehicle history checks, empowering you with essential insights and peace of mind
                 </p>
             </div>
