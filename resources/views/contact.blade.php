@@ -99,7 +99,7 @@
     <!-- form -->
 
     <div class="flex justify-center ">
-        <button class="px-10 py-3 mt-5 text-white bg-orange-500 border-2 rounded-lg text-1xl md:mt-10">Send Message</button>
+        <button class="px-10 py-3 mt-5 text-white bg-orange-500 border-2 rounded-lg text-1xl md:mt-10 hover:text-orange-500 hover:bg-white">Send Message</button>
     </div>
 
 

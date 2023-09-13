@@ -28,7 +28,7 @@
                         <input type="text" id="cheeseNumber" class="w-full px-3 py-2 text-black border border-white rounded-lg placeholder-blue-950" placeholder="Enter Chassis Number">
                     </div>
                     <div>
-                        <button class="w-full px-6 py-4 font-bold text-white border rounded-lg bg-blue-950">Find your Vehicle</button>
+                        <button class="w-full px-6 py-4 font-bold text-white border rounded-lg bg-blue-950 hover:text-blue-600 hover:bg-blue-400">Find your Vehicle</button>
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@
 
                 </table>
                 <div class="flex justify-center w-full mt-5 md:mt-20">
-                    <button class="items-center justify-center w-full p-5 text-3xl font-semibold text-white rounded-lg border-3 bg-blue-950">Download Report</button>
+                    <button class="items-center justify-center w-full p-5 text-3xl font-semibold text-white rounded-lg border-3 bg-blue-950 hover:text-blue-600 hover:bg-blue-400">Download Report</button>
                 </div>
             </div>
         </div>

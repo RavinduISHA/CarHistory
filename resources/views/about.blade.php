@@ -38,13 +38,13 @@
                 <div class="flex flex-col items-center gap-2 md:flex-row">
                     <div>
                         <h1 class="relative z-10 w-24 -mb-4 bg-white">Happy client</h1>
-                        <div class="z-10 w-40 border-4 border-blue-950 h-28">
+                        <div class="z-10 w-40 border-8 border-blue-950 h-28">
                             <h1 class="px-1 py-5 text-5xl text-center text-blue-950">275+</h1>
                         </div>
                     </div>
                     <div>
                         <h1 class="relative z-10 w-24 -mb-4 bg-white">Happy client</h1>
-                        <div class="z-10 w-40 border-4 border-blue-950 h-28">
+                        <div class="z-10 w-40 border-8 border-blue-950 h-28">
                             <h1 class="px-1 py-5 text-5xl text-center text-blue-950">975+</h1>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
             <div class="absolute inset-0 flex-col items-start justify-center text-center text-white md:flex md:mt-20 md:pl-20">
                 <p class="text-xl font-bold text-orange-600 md:text-4xl">Preserving the Legacy</p>
                 <p class="md:text-2xl md:w-3/12 md:text-left ">Uncovering the Past of Japanese Cars through an In-depth Sample Report</p>
-                <button class="px-4 py-1 mt-2 font-bold bg-orange-600 rounded-lg md:py-2 md:text-md md:mt-5">GET REPORT</button>
+                <button class="px-4 py-1 mt-2 font-bold bg-orange-600 rounded-lg md:py-2 md:text-md md:mt-5 hover:text-orange-600 hover:bg-white">GET REPORT</button>
             </div>
         </div>
     </div>

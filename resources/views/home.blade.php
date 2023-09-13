@@ -24,7 +24,7 @@
                     <div class="w-full mt-10 md:w-12/12 md:mt-20 ">
                         <div class="relative w-full p-1 md:p-0">
                             <input type="text" id="search" name="search" placeholder="VIN or Chassis Number" class="w-full px-4 py-2 text-black bg-white rounded-md focus:outline-none focus:ring focus:border-blue-300" />
-                            <button type="button" class="absolute px-3 py-1 text-white transform -translate-y-1/2 bg-orange-500 rounded top-1/2 right-2 focus:outline-none">
+                            <button type="button" class="absolute px-3 py-1 text-white transform -translate-y-1/2 bg-orange-500 rounded top-1/2 right-2 focus:outline-none hover:text-orange-400 hover:bg-orange-200">
                                 Search
                             </button>
                         </div>
@@ -107,7 +107,7 @@
                 <div class="absolute inset-0 flex-col items-start justify-center text-center text-white md:flex md:mt-20 md:pl-20">
                     <p class="text-xl font-bold text-orange-600 md:text-4xl">Preserving the Legacy</p>
                     <p class="md:text-2xl md:w-3/12 md:text-left ">Uncovering the Past of Japanese Cars through an In-depth Sample Report</p>
-                    <button class="px-4 py-1 mt-2 font-bold bg-orange-600 rounded-lg md:py-2 md:text-md md:mt-5">GET REPORT</button>
+                    <button class="px-4 py-1 mt-2 font-bold bg-orange-600 rounded-lg md:py-2 md:text-md md:mt-5 hover:text-orange-600 hover:bg-white">GET REPORT</button>
                 </div>
             </div>
         </div>
@@ -126,7 +126,7 @@
 
             <!--  NEW ROW -->
             <div class="flex justify-center p-2 md:p-0">
-                <div class="container items-start justify-center border-4 border-blue-950">
+                <div class="items-start justify-center w-4/5 border-8 border-blue-950">
                     <!-- one row . -->
                     <div class="flex flex-col mt-4 md:flex-row md:mt-8">
 
@@ -266,7 +266,7 @@
             </div>
         </div>
 
-        <div class="bg-[url('../img/homecar2.jpg')] container bg-cover bg-center mx-auto">
+        <div class="bg-[url('../img/homecar2.jpg')] container bg-cover bg-center mx-auto w-full mt-6 md:mt-8">
             <div class="container px-5 py-10 mx-auto">
                 <h1 class="text-4xl font-bold text-center text-blue-900 border-green-800">What our Community is Saying
                 </h1>
