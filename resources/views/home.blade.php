@@ -9,11 +9,11 @@
     <!-- BACKGROUND -->
     <div class="bg-[url('../img/Pinna.jpg')] bg-cover bg-center py-4 md:py-1 justify-center h-[32rem]">
         <div class="container mx-auto mt-20 md:mt-0">
-            <div class="flex-col justify-center md:flex md:justify-start md:mx-20 md:mt-40 mx-28 md:text-left ">
+            <div class="flex-col justify-center mx-3 md:flex md:justify-start md:mx-20 md:mt-40 md:text-left ">
                 <h1 class="font-bold tracking-wider text-orange-500 md:text-6xl md:mx-0">
                     Know&nbsp;Before&nbsp;You&nbsp;Buy
                 </h1>
-                <p class="w-full mx-3 mt-3 text-white md:text-2xl md:w-6/12 md:mt-5 md:mx-0">
+                <p class="w-3/4 mx-3 mt-3 text-white md:text-2xl md:w-6/12 md:mt-5 md:mx-0">
                     Your go-to resource for comprehensive vehicle history checks, empowering you with essential insights and peace of mind
                 </p>
             </div>
@@ -22,7 +22,7 @@
             <div class="flex flex-col md:flex-row md:mx-20">
                 <div class="items-start text-center md:w-5/12 md:mb-40 md:text-left">
                     <div class="w-full mt-10 md:w-12/12 md:mt-20 ">
-                        <div class="relative w-full">
+                        <div class="relative w-full p-1 md:p-0">
                             <input type="text" id="search" name="search" placeholder="VIN or Chassis Number" class="w-full px-4 py-2 text-black bg-white rounded-md focus:outline-none focus:ring focus:border-blue-300" />
                             <button type="button" class="absolute px-3 py-1 text-white transform -translate-y-1/2 bg-orange-500 rounded top-1/2 right-2 focus:outline-none">
                                 Search
@@ -30,7 +30,7 @@
                         </div>
                     </div>
 
-                    <div class="flex items-center justify-center gap-3 md:gap-5 md:mt-6 md:items-start sm:justify-start">
+                    <div class="flex items-center justify-center gap-3 mt-2 md:gap-5 md:mt-4 md:items-start sm:justify-start">
                         <img src="{{ asset('images/twitter.png') }}" alt="" class="w-5 h-5">
                         <img src="{{ asset('images/twitter.png') }}" alt="" class="w-5 h-5">
                         <img src="{{ asset('images/youtube.png') }}" alt="" class="w-5 h-5">
@@ -105,9 +105,9 @@
             <div class="w-full ">
                 <img src="{{ URL('images/Group_93.png')}}" class="w-full">
                 <div class="absolute inset-0 flex-col items-start justify-center text-center text-white md:flex md:mt-20 md:pl-20">
-                    <p class="font-bold text-orange-600 md:text-4xl">Preserving the Legacy</p>
+                    <p class="text-xl font-bold text-orange-600 md:text-4xl">Preserving the Legacy</p>
                     <p class="md:text-2xl md:w-3/12 md:text-left ">Uncovering the Past of Japanese Cars through an In-depth Sample Report</p>
-                    <button class="px-4 py-2 font-bold bg-orange-600 rounded-lg md:text-md md:mt-5">GET REPORT</button>
+                    <button class="px-4 py-1 mt-2 font-bold bg-orange-600 rounded-lg md:py-2 md:text-md md:mt-5">GET REPORT</button>
                 </div>
             </div>
         </div>
@@ -125,10 +125,10 @@
             </div>
 
             <!--  NEW ROW -->
-            <div class="flex justify-center">
+            <div class="flex justify-center p-2 md:p-0">
                 <div class="container items-start justify-center border-4 border-blue-950">
                     <!-- one row . -->
-                    <div class="flex flex-col mt-20 md:flex-row ">
+                    <div class="flex flex-col mt-4 md:flex-row md:mt-8">
 
 
                         <!-- one box . -->
@@ -295,8 +295,8 @@
     </div>
 
     <!-- Our Trusted Brand  Part-->
-    <div class="flex justify-center">
-        <div class="flex-col items-center justify-center w-9/12 mt-20 ">
+    <div class="flex justify-center mt-2">
+        <div class="flex-col items-center justify-center w-9/12 mt-8">
             <h1 class="pb-2 text-4xl font-bold text-center text-blue-900 md:text-4xl">Discover the Wide Range of Popular Models from Japan</h1> <!-- Increase the heading size for larger screens -->
             <p class="pb-16 text-center text-gray-500 md:text-3xl w-12/12 ">A variety of cars are imported from Japan, known for their reliability, quality, and advanced technology. These imports cater to different vehicle categories such as sedans, SUVs, hatchbacks, sports cars, and more, offering a diverse range of options for consumers in international markets. </p>
         </div>
@@ -307,12 +307,12 @@
     <div class="flex justify-center">
         <div class="flex justify-center ">
             <div class="flex flex-col justify-center w-9/12 md:flex-row mb-14">
-                <img src="{{ URL('images/Group 151.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
-                <img src="{{ URL('images/Group 152.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
-                <img src="{{ URL('images/Group 153.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
-                <img src="{{ URL('images/Group 154.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
-                <img src="{{ URL('images/Group 155.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
-                <img src="{{ URL('images/Group 156.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-80 md:w-40">
+                <img src="{{ URL('images/Group 151.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-75 md:w-40">
+                <img src="{{ URL('images/Group 152.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-75 md:w-40">
+                <img src="{{ URL('images/Group 153.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-75 md:w-40">
+                <img src="{{ URL('images/Group 154.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-75 md:w-40">
+                <img src="{{ URL('images/Group 155.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-75 md:w-40">
+                <img src="{{ URL('images/Group 156.png') }}" class="mx-auto mb-4 md:mb-0 md:mx-4 lg:w-75 md:w-40">
             </div>
         </div>
     </div>

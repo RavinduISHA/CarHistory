@@ -25,7 +25,7 @@
     <div class="items-start justify-center w-full md:flex">
         <div class="md:w-2/6">
             <h1 class="text-3xl font-bold text-center md:mt-10 text-blue-950 md:text-left">About Us</h1>
-            <p class="text-base text-center md:text-lg lg:text-xl xl:text-2xl md:mt-16 md:text-left">
+            <p class="p-2 text-base text-center md:text-lg lg:text-xl xl:text-2xl md:mt-16 md:text-left">
                 Our Japanese Import Cars History Website is a comprehensive online platform dedicated to providing
                 detailed
                 information and insights into the history, development, and evolution of Japanese import cars. We aim to
@@ -55,7 +55,7 @@
 
 
 
-        <div class="w-full md:w-3/6">
+        <div class="w-full mt-4 md:w-3/6">
             <img src="{{ asset('images/aboutimg.png') }}">
         </div>
     </div>
@@ -70,9 +70,9 @@
         <div class="w-full ">
             <img src="{{ URL('images/Group_93.png')}}" class="w-full">
             <div class="absolute inset-0 flex-col items-start justify-center text-center text-white md:flex md:mt-20 md:pl-20">
-                <p class="font-bold text-orange-600 md:text-4xl">Preserving the Legacy</p>
+                <p class="text-xl font-bold text-orange-600 md:text-4xl">Preserving the Legacy</p>
                 <p class="md:text-2xl md:w-3/12 md:text-left ">Uncovering the Past of Japanese Cars through an In-depth Sample Report</p>
-                <button class="px-4 py-2 font-bold bg-orange-600 rounded-lg md:text-md md:mt-5">GET REPORT</button>
+                <button class="px-4 py-1 mt-2 font-bold bg-orange-600 rounded-lg md:py-2 md:text-md md:mt-5">GET REPORT</button>
             </div>
         </div>
     </div>

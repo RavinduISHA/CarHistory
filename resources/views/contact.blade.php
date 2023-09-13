@@ -23,27 +23,27 @@
 
 
 
-        <div class="flex justify-center mt-10">
+        <div class="flex flex-wrap justify-center mt-10">
             <div class="w-60">
                 <img src="images/Group 88.png" class="w-20 h-20 mx-auto">
                 <h1 class="text-center ">Address</h1>
                 <h1 class="text-center ">info.carhistory.com.au</h1>
             </div>
 
-            <div class="border-l-2 border-r-2 w-60 border-l-orange-600 border-r-orange-600">
+            <div class="mt-2 w-60 sm:border-l-2 sm:border-r-2 sm:border-l-orange-600 sm:border-r-orange-600 md:mt-0">
                 <div>
                     <img src="images/Group 89.png" class="w-20 h-20 mx-auto">
                 </div>
-                <h1 class="text-center ">Email</h1>
+                <h1 class="mt-2 text-center">Email</h1>
                 <h1 class="text-center">info.carhistory.com.au</h1>
             </div>
 
 
-            <div class="w-60">
+            <div class="mt-2 w-60 md:mt-0">
                 <div>
                     <img src="images/Group 90.png" class="w-20 h-20 mx-auto">
                 </div>
-                <h1 class="text-center">Call </h1>
+                <h1 class="mt-2 text-center">Call </h1>
                 <h1 class="text-center">+61 412 345 678</h1>
             </div>
 

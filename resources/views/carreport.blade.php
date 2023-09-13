@@ -12,7 +12,7 @@
     </div>
 
 </div>
-<div class="container mx-auto mt-4">
+<div class="container p-1 mx-auto mt-4">
 
     <div class="px-10 py-10 bg-gray-200 border-2 border-blue-800 rounded-lg">
         <div class="flex flex-col md:flex-row">
@@ -174,7 +174,7 @@
     </div>
 </div>
 
-<div class="flex items-center justify-center ">
+<div class="flex items-center justify-center p-1">
     <div class="container items-center justify-center w-full px-10 py-10 mt-10 bg-gray-200 border-2 border-blue-800 rounded-lg">
 
         <div class="flex ">
@@ -245,11 +245,11 @@
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="px-5">-----</td>
                         <td>
-                            <div class="flex">
+                            <div class="flex flex-wrap">
                                 <div class="flex items-center">
-                                    <img src="{{ URL('images/cancel.png')}}" class="w-5 h-5 mt-4 md:mt-0" alt="" srcset="">
+                                    <img src="{{ URL('images/cancel.png')}}" class="w-5 h-5 mx-8 mt-4 md:mx-0 md:mt-0" alt="" srcset="">
                                 </div>
-                                <h1>&nbsp Rejected</h1>
+                                <h1 class="pl-2">&nbsp Rejected</h1>
                             </div>
                         </td>
                         <td>2023-02-15</td>
@@ -260,7 +260,7 @@
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="md:px-5">Malfuction</td>
                         <td>
-                            <div class="flex">
+                            <div class="flex flex-wrap">
                                 <div class="flex items-center">
                                     <!-- <img src="" class="w-5 h-5" alt="" srcset=""> -->
                                 </div>
@@ -275,11 +275,11 @@
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="md:px-5">Malfuction</td>
                         <td>
-                            <div class="flex">
+                            <div class="flex flex-wrap">
                                 <div class="flex items-center">
-                                    <img src="{{ URL('images/checked.png')}}" class="w-5 h-5" alt="" srcset="">
+                                    <img src="{{ URL('images/checked.png')}}" class="w-5 h-5 mx-8 md:mx-0" alt="" srcset="">
                                 </div>
-                                <h1>&nbsp Not Reported</h1>
+                                <h1 class="pl-4 md:pl-0">&nbsp Not Reported</h1>
                             </div>
                         </td>
                         <td></td>
@@ -290,11 +290,11 @@
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="md:px-5">Malfuction</td>
                         <td>
-                            <div class="flex">
+                            <div class="flex flex-wrap">
                                 <div class="flex items-center">
-                                    <img src="{{ URL('images/checked.png')}}" class="w-5 h-5" alt="" srcset="">
+                                    <img src="{{ URL('images/checked.png')}}" class="w-5 h-5 mx-8 md:mx-0" alt="" srcset="">
                                 </div>
-                                <h1>&nbsp Not Reported</h1>
+                                <h1 class="pl-4 md:pl-0">&nbsp Not Reported</h1>
                             </div>
                         </td>
                         <td></td>
@@ -305,11 +305,11 @@
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="md:px-5">Malfuction</td>
                         <td>
-                            <div class="flex">
+                            <div class="flex flex-wrap">
                                 <div class="flex items-center">
-                                    <img src="{{ URL('images/checked.png')}}" class="w-5 h-5" alt="" srcset="">
+                                    <img src="{{ URL('images/checked.png')}}" class="w-5 h-5 mx-8 md:mx-0" alt="" srcset="">
                                 </div>
-                                <h1>&nbsp Not Reported</h1>
+                                <h1 class="pl-4 md:pl-0">&nbsp Not Reported</h1>
                             </div>
                         </td>
                         <td></td>
@@ -320,11 +320,11 @@
                     <tr class="border-b-8 border-white bg-slate-200">
                         <td class="md:px-5">Malfuction</td>
                         <td>
-                            <div class="flex">
+                            <div class="flex flex-wrap">
                                 <div class="flex items-center">
-                                    <img src="{{ URL('images/checked.png')}}" class="w-5 h-5" alt="" srcset="">
+                                    <img src="{{ URL('images/checked.png')}}" class="w-5 h-5 mx-8 md:mx-0" alt="" srcset="">
                                 </div>
-                                <h1>&nbsp Not Reported</h1>
+                                <h1 class="pl-4 md:pl-0">&nbsp Not Reported</h1>
                             </div>
                         </td>
                         <td></td>
