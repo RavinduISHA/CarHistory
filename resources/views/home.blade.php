@@ -23,14 +23,14 @@
                 <div class="items-start text-center md:w-5/12 md:mb-40 md:text-left">
                     <div class="w-full mt-10 md:w-12/12 md:mt-20 ">
                         <div class="relative w-full p-1 md:p-0">
-                            <input type="text" id="search" name="search" placeholder="VIN or Chassis Number" class="w-full px-4 py-2 text-black bg-white rounded-md focus:outline-none focus:ring focus:border-blue-300" />
-                            <button type="button" class="absolute px-3 py-1 text-white transform -translate-y-1/2 bg-orange-500 rounded top-1/2 right-2 focus:outline-none hover:text-orange-400 hover:bg-orange-200">
+                            <input type="text" id="search" name="search" placeholder="VIN or Chassis Number" class="w-full h-10 px-4 py-2 text-black bg-white rounded-md placeholder:italic placeholder:text-orange-500 md:h-14 focus:outline-none focus:ring focus:border-blue-300" />
+                            <button type="button" class="absolute px-3 py-1.5 md:py-2.5 text-white transform -translate-y-1/2 bg-orange-500 rounded top-1/2 right-2 focus:outline-none hover:text-orange-400 hover:bg-orange-200">
                                 Search
                             </button>
                         </div>
                     </div>
 
-                    <div class="flex items-center justify-center gap-3 mt-2 md:gap-5 md:mt-4 md:items-start sm:justify-start">
+                    <div class="flex items-center justify-center gap-3 mt-2 md:gap-5 md:mt-3 md:items-start sm:justify-start">
                         <img src="{{ asset('images/twitter.png') }}" alt="" class="w-5 h-5">
                         <img src="{{ asset('images/twitter.png') }}" alt="" class="w-5 h-5">
                         <img src="{{ asset('images/youtube.png') }}" alt="" class="w-5 h-5">

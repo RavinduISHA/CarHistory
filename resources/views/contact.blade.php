@@ -6,8 +6,8 @@
 <div class="relative w-full">
     <img src="{{ asset('images/Siyama.jpg') }}" alt="" class="object-cover w-full h-64 mx-auto">
     <div class="absolute inset-0 flex flex-col items-center justify-center">
-        <h1 class="text-6xl font-bold text-orange-500">Car Report</h1>
-        <p class="text-white">Home > Car Report</p>
+        <h1 class="text-6xl font-bold text-orange-500">Contact</h1>
+        <p class="text-white">Home > Contact</p>
 
 
     </div>

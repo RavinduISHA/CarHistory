@@ -6,7 +6,7 @@
     <img src="{{ asset('images/Siyama.jpg') }}" alt="" class="object-cover w-full h-64 mx-auto">
     <div class="absolute inset-0 flex flex-col items-center justify-center">
         <h1 class="font-bold text-orange-500 md:text-6xl">Car Report</h1>
-        <p class="text-white">Home > Car Report</p>
+        <p class="text-white md:mt-1">Home > Car Report</p>
 
 
     </div>
@@ -18,7 +18,7 @@
         <div class="flex flex-col md:flex-row">
             <div class="px-5 md:w-6/12">
                 <div>
-                    <h1 class="w-full mb-2 md:w-4/12 md:mb-0 text-blue-950">CHECK CAR HISTORY NOW! Use a FREE vehicle search</h1>
+                    <h1 class="w-full mb-2 font-medium md:w-4/12 md:mb-0 text-blue-950">CHECK CAR HISTORY NOW! Use a FREE vehicle search</h1>
                 </div>
                 <h1 class="w-full mt-5 text-black md:w-10/12">Uncover the complete background of any vehicle instantly. Access valuable information on accidents, ownership, title status, and more. Make informed decisions with confidence and peace of mind.</h1>
             </div>
@@ -42,46 +42,46 @@
     <div class="justify-between w-full gap-10 mt-5 md:flex">
 
 
-        <div class="w-full border-2 rounded-lg ">
+        <div class="w-full border-2 border-blue-800 rounded-lg">
             <div class="py-5 bg-blue-950">
                 <h1 class="text-3xl text-center text-white">Vehicle Information</h1>
             </div>
             <div>
                 <table class="w-full ">
                     <tr class="even:bg-gray-300 odd:bg-white ">
-                        <td class="w-1/2 text-start md:px-4 md:py-4">Chassis Number</td>
+                        <td class="w-1/2 font-medium text-start md:px-4 md:py-4">Chassis Number</td>
                         <td class="w-1/2 text-start">: KJ10-25LKU785</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start md:px-4 md:py-4">Manufacture Date</td>
+                        <td class="w-1/2 font-medium text-start md:px-4 md:py-4">Manufacture Date</td>
                         <td class="w-1/2 text-start">: 2009-06</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start md:px-4 md:py-4">Make</td>
+                        <td class="w-1/2 font-medium text-start md:px-4 md:py-4">Make</td>
                         <td class="w-1/2 text-start">: Toyota</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start md:px-4 md:py-4">Model</td>
+                        <td class="w-1/2 font-medium text-start md:px-4 md:py-4">Model</td>
                         <td class="w-1/2 text-start">: Prius</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start md:px-4 md:py-4">Body</td>
+                        <td class="w-1/2 font-medium text-start md:px-4 md:py-4">Body</td>
                         <td class="w-1/2 text-start">: DBA-KJ10</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start md:px-4 md:py-4">Grade</td>
+                        <td class="w-1/2 font-medium text-start md:px-4 md:py-4">Grade</td>
                         <td class="w-1/2 text-start">: 20G</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start md:px-4 md:py-4">Engine</td>
+                        <td class="w-1/2 font-medium text-start md:px-4 md:py-4">Engine</td>
                         <td class="w-1/2 text-start">: MR20</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start md:px-4 md:py-4">Drive</td>
+                        <td class="w-1/2 font-medium text-start md:px-4 md:py-4">Drive</td>
                         <td class="w-1/2 text-start">: 2WD</td>
                     </tr>
                     <tr class="even:bg-gray-300 odd:bg-white">
-                        <td class="w-1/2 text-start md:px-4 md:py-4">Transmission</td>
+                        <td class="w-1/2 font-medium text-start md:px-4 md:py-4">Transmission</td>
                         <td class="w-1/2 text-start">: Auto</td>
                     </tr>
 
@@ -90,12 +90,12 @@
         </div>
 
 
-        <div class="w-full border-2 rounded-lg ">
+        <div class="w-full border-2 border-blue-800 rounded-lg">
             <div class="py-5 bg-blue-950">
                 <h1 class="text-3xl text-center text-white">Vehicle History</h1>
             </div>
             <div class="">
-                <table class="w-full px-5 ">
+                <table class="w-full px-5">
                     <tr class="even:bg-gray-300 odd:bg-white">
                         <td class="w-1/3 text-start md:py-4 md:px-4">
                             <span class="inline-block mr-2">
@@ -181,18 +181,18 @@
 
             <div class="w-7/12">
                 <div>
-                    <h1 class="text-4xl text-blue-950">This vehicle does not qualify for Buyback Guarantee</h1>
+                    <h1 class="text-4xl font-semibold text-blue-950">This vehicle does not qualify for Buyback Guarantee</h1>
                 </div>
                 <div class="flex md:mt-5">
                     <img src="{{ URL('images/cross.png')}}" alt="Your Image" class="w-10 h-10 mt-3 md:w-20 md:h-20 md:mt-0">
-                    <h1 class="w-full mt-3 ml-2 md:w-6/12">Unfortunately, this vehicle does not qualify for our
+                    <h1 class="w-full mt-3 ml-2 font-medium md:w-6/12 ">Unfortunately, this vehicle does not qualify for our
                         Buyback Guarantee Program.</h1>
                 </div>
             </div>
 
             <div class="w-5/12 text-center">
                 <div>
-                    <h1 class="text-2xl text-blue-950">Average Market Price</h1>
+                    <h1 class="text-2xl font-semibold text-blue-950">Average Market Price</h1>
                 </div>
                 <div class="flex justify-center md:mt-5">
                     <img src="{{ URL('images/dollar-symbol.png')}}" alt="Your Image" class="w-10 h-10 mt-3 md:w-20 md:h-20 md:mt-0">
@@ -213,7 +213,7 @@
 
 
 <!-- According --->
-<div class="container mx-auto mt-5">
+<div class="container p-1 mx-auto mt-5 md:p-0">
     <div id="accordion-collapse" data-accordion="collapse">
 
         <!-- ACCORDION 2-->
