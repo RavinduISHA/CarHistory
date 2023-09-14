@@ -31,9 +31,24 @@
                     </div>
 
                     <div class="flex items-center justify-center gap-3 mt-2 md:gap-5 md:mt-3 md:items-start sm:justify-start">
+                        <div>
+                            <a href="https://www.instagram.com/" class="p-1 text-orange-600 rounded-lg hover:text-orange-200 bg-none">
+                                <i class="fab fa-facebook fa-lg"></i>
+                            </a>
+                        </div>
+                        <div >
+                            <a href="https://www.instagram.com/" class="p-1 text-orange-600 rounded-lg hover:text-orange-200 bg-none">
+                                <i class="fab fa-twitter fa-lg"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/" class="p-1 text-orange-600 rounded-lg hover:text-orange-200 bg-none">
+                                <i class="fab fa-youtube fa-lg"></i>
+                            </a>
+                        </div>
+                        {{-- <img src="{{ asset('images/twitter.png') }}" alt="" class="w-5 h-5">
                         <img src="{{ asset('images/twitter.png') }}" alt="" class="w-5 h-5">
-                        <img src="{{ asset('images/twitter.png') }}" alt="" class="w-5 h-5">
-                        <img src="{{ asset('images/youtube.png') }}" alt="" class="w-5 h-5">
+                        <img src="{{ asset('images/youtube.png') }}" alt="" class="w-5 h-5"> --}}
                     </div>
 
                 </div>

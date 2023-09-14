@@ -108,9 +108,24 @@
     </div>
 
     <div class="flex justify-center gap-5 mt-10">
-        <img src="images/Group 91.png" class="w-20 h-20">
-        <img src="images/Group 92.png" class="w-20 h-20">
-        <img src="images/Group 93.png" class="w-20 h-20">
+        <div class="mx-3">
+            <a href="https://www.facebook.com/" class="p-1.5 text-blue-900 bg-white rounded-lg hover:text-blue-400">
+                <i class="fab fa-facebook fa-5x"></i>
+            </a>
+        </div>
+        <div class="mx-3">
+            <a href="https://www.instagram.com/" class="bg-white p-1.5 rounded-lg text-blue-900 hover:text-blue-400">
+                <i class="fab fa-twitter fa-5x"></i>
+            </a>
+        </div> 
+        <div class="mx-3">
+            <a href="https://www.instagram.com/" class="bg-white p-1.5 rounded-lg text-blue-900 hover:text-blue-400">
+                <i class="fab fa-instagram fa-5x"></i>
+            </a>
+        </div> 
+        {{-- <img src="images/Group 91.png" class="w-20 h-20"> --}}
+        {{-- <img src="images/Group 92.png" class="w-20 h-20"> --}}
+        {{-- <img src="images/Group 93.png" class="w-20 h-20"> --}}
     </div>
 
     <div class="flex justify-center mt-10">
